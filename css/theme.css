@@ -1,0 +1,28 @@
+:root {
+  --color-primary-black: #292929;
+  --color-primary-mid-grey: #7a7a7a;
+  --color-primary-light-grey: #e0e0e0;
+
+  --color-secondary-gold: #ffc74a;
+  --color-secondary-gold-shadow: #735921;
+  --color-secondary-gold-pale: #ffde96;
+
+  --font-primary: "Fira Sans Extra Condensed", sans-serif;
+  --font-secondary: "Neuton", serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+}
+
+h2 {
+  font-family: var(--font-primary);
+}
+
+h3 {
+  font-family: var(--font-primary);
+}

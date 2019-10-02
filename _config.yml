@@ -1,0 +1,31 @@
+permalink: pretty
+
+theme: jekyll_patternbot
+
+patternbot:
+  font_url:
+    "https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400,700|Neuton:300,400&display=swap"
+  title: "Hearon Design"
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  colors:
+    background: "--color-primary-light-grey"
+    sidebar: "--color-primary-black"
+    patterns:
+  rationales:
+    typefaces.primary: |
+      Fira Sans Extra Condensed is the primary typeface throughout the website, used as the body copy and in general, the default font setting for most instances.
+
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    typefaces.secondary: |
+      ____ was the secondary typeface used throughout the site in places of emphasis, such as headings, subtitles and navigation.
+
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    colors.primary: |
+      Fira Sans Extra Condensed is the primary typeface throughout the website, used as the body copy and in general, the default font setting for most instances.
+
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    colors.secondary: |
+      ____ was the secondary typeface used throughout the site in places of emphasis, such as headings, subtitles and navigation.
+
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
