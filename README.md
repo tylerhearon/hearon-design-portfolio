@@ -1,6 +1,6 @@
 # Tyler Hearon
 
-## [Hearon Design](https://hearon.design)
+#### [Hearon Design](https://hearon.design)
 
 ---
 
