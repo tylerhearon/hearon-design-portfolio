@@ -16,11 +16,11 @@ patternbot:
     typefaces.primary: |
       Fira Sans Extra Condensed is the primary typeface throughout the website, used as the body copy and in general, the default font setting for most instances.
 
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      This font family allows for an easily read and accessed website, with clear and defined letterforms that scale appropriately.
     typefaces.secondary: |
       Neuton was the secondary typeface used throughout the site in places of emphasis, such as headings, subtitles and navigation.
 
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      This font family was chosen as it allows for use of dynamic emphasis when it comes to the text hierarchy of the website. Using a distinct header/titling font separates the information visually from the rest of the page.
     colors.primary: |
       The colours primarily used throughout the site are simple greyscale, allowing for an emphasis on content rather than to distract.
 
@@ -30,6 +30,6 @@ patternbot:
 
       The gold colours used are meant to add an air of distinction to the site. They are meant to be subtle, but still bright, and allow for a dramatic shift of focus if used correctly.
     colors.accent: |
-      The secondary colours used throughout the site are vibrant golds taken from the set of banner images. The gold will be used for visual emphasis, in titling and hoverstates.
+      The accent colours used throughout the site are a variety of earthy green tones. The greens are used to sharply contrast the gold secondary colour and allow for a second emphasis.
 
-      The gold colours used are meant to add an air of distinction to the site. They are meant to be subtle, but still bright, and allow for a dramatic shift of focus if used correctly.
+      The greens used will be used in hoverstates and various locations throughout the website as a "shadow" colour that will allow for a more dynamic colour palette without adding brand new colours.
