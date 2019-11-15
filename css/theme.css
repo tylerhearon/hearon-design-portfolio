@@ -20,7 +20,7 @@ html {
 }
 
 h1 {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   color: var(--color-secondary-gold);
   font-weight: 700;
 }
@@ -32,24 +32,6 @@ h2 {
 }
 
 h3 {
-  font-family: var(--font-primary);
-  color: var(--color-secondary-gold);
-  font-weight: 700;
-}
-
-h4 {
-  font-family: var(--font-primary);
-  color: var(--color-secondary-gold);
-  font-weight: 700;
-}
-
-h5 {
-  font-family: var(--font-primary);
-  color: var(--color-secondary-gold);
-  font-weight: 700;
-}
-
-h6 {
   font-family: var(--font-primary);
   color: var(--color-secondary-gold);
   font-weight: 700;

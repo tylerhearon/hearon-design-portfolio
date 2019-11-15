@@ -1,0 +1,41 @@
+title: "Buttons"
+description: |
+  Buttons are used throughout the site to submit forms and generally confirm all actions.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      A basic button used throughout the site in various instances, from basic confirmation actions to form submissions.
+    width: "26em"
+    fields:
+      - name: link
+        type: string
+        example: "||  Read More  ||"
+      - name: url
+        type: url
+        example: "/index/"
+  ghost:
+    title: "Ghost"
+    description: |
+      A secondary basic button, most likely used in banners and other locations where there needs to be a more subtle focus on the button itself.
+    width: "26em"
+    fields:
+      - name: link
+        type: string
+        example: "||  Read More ||"
+      - name: url
+        type: url
+        example: "/index/"
+  light:
+    title: "Light"
+    description: |
+      Another secondary button, the lighter variety of the basic button is used most sparingly. It is still solid and will not be used in banners, however will most likely be used for smaller, sub-features and actions.
+    width: "26em"
+    fields:
+      - name: link
+        type: string
+        example: "||  Read More  ||"
+      - name: url
+        type: url
+        example: "/index/"
