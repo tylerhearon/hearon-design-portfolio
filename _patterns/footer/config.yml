@@ -1,0 +1,8 @@
+title: "Footer"
+description: |
+  The main footer bar of the site is simple and self explanatory. It contains a mailing link for direct email access.
+patterns:
+  contactfooter:
+    title: "Bottom of Page - Contact"
+    description: |
+      This is the main navigation of the portfolio site, used on the landing page to allow visiors basic navigation access throughout the site.

@@ -1,0 +1,20 @@
+title: "Banners"
+description: |
+  The selection of matching banner images that will be used throughout the website as both a tie-in to the overall theme of the personal brand, as well as provide a dynamic and changing banner image for each page.
+patterns:
+  banner-1:
+    title: "Landing Page Banner"
+    description: |
+      This is the initial Landing Page Banner, which will likely be the first thing that user's see upon loading the portfolio page. It is therefore important to make sure that it is striking and visually capivating on each page.
+  banner-2:
+    title: "Portfolio Piece Banner - 1"
+    description: |
+      This is the banner image used for the first portfolio piece that was selected, ______. This piece follows the same theme as the rest, but with the unique imagery used to identify it and distinguish it from the matching set.
+  banner-3:
+    title: "Portfolio Piece Banner - 2"
+    description: |
+      This is the banner image used for the second portfolio piece that was selected, ______. This piece follows the same theme as the rest, but with the unique imagery used to identify it and distinguish it from the matching set.
+  banner-4:
+    title: "Portfolio Piece Banner - 3"
+    description: |
+      This is the banner image used for the third portfolio piece that was selected, ______. This piece follows the same theme as the rest, but with the unique imagery used to identify it and distinguish it from the matching set.

@@ -36,3 +36,49 @@ h3 {
   color: var(--color-secondary-gold);
   font-weight: 700;
 }
+
+a {
+  font-family: var(--font-primary);
+  color: var(--color-secondary-gold);
+}
+
+a:visited {
+  font-family: var(--font-primary);
+  color: var(--color-accent-gold-shadow);
+}
+
+a:hover {
+  font-family: var(--font-primary);
+  color: var(--color-secondary-gold-light);
+}
+
+a:active {
+  font-family: var(--font-primary);
+  color: var(--color-accent-green);
+}
+
+ul {
+  color: var(--color-primary-black);
+  list-style-type: square;
+}
+
+ul>li:before {
+  color: var(--color-secondary-gold);
+}
+
+ol {
+  color: var(--color-primary-black);
+  font-weight: bold;
+}
+
+ol>li:before {
+  color: var(--color-secondary-gold);
+}
+
+dl {
+  color: var(--color-primary-black);
+}
+
+dl>li:before {
+  color: var(--color-secondary-gold);
+}

@@ -1,0 +1,14 @@
+.imageplaceholder {
+   background-color: var(--color-primary-black);
+   width: 100%;
+   height: 15em;
+   color: white;
+}
+
+.darkborder {
+  border-bottom: 1px solid #DBAA40;
+}
+
+.goldborder {
+  border-bottom: 8px solid var(--color-secondary-gold);
+}

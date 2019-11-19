@@ -1,0 +1,20 @@
+.mainnav {
+  width: 100%;
+  border-bottom: 1px solid #DBAA40;
+  background-color: var(--color-primary-black);
+}
+
+.navbutton {
+  background-color: var(--color-primary-black);
+  background-image: linear-gradient(to top, var(--color-primary-black), #332F2D);
+  color: var(--color-secondary-gold);
+  padding: .8em;
+}
+
+.landingnavbutton {
+  padding: 1.5em;
+}
+
+.navbar {
+  border-bottom: 5px solid var(--color-secondary-gold);
+}
