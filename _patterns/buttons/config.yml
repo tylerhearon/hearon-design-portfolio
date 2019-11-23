@@ -1,41 +1,16 @@
 title: "Buttons"
 description: |
-  Buttons are used throughout the site to submit forms and generally confirm all actions.
-
+  There will not be a lot of buttons used throughout the site, as many banner images will double as intrasite navigation, but the buttons that will be used will be on brand and built to be simple and effecient for those looking to navigate around the portfolio site.
 patterns:
-  basic:
-    title: "Basic"
+  button-basic:
+    title: "Basic Button"
     description: |
-      A basic button used throughout the site in various instances, from basic confirmation actions to form submissions.
-    width: "26em"
-    fields:
-      - name: link
-        type: string
-        example: "||  Read More  ||"
-      - name: url
-        type: url
-        example: "/index/"
-  ghost:
-    title: "Ghost"
+      This is a variatian of the basic rectangular button used in several instances throughout the website. In this variation, the button will be used throughout the site as the default button, made to match the overall branding and theme.
+  button-ghost:
+    title: "Ghost Button"
     description: |
-      A secondary basic button, most likely used in banners and other locations where there needs to be a more subtle focus on the button itself.
-    width: "26em"
-    fields:
-      - name: link
-        type: string
-        example: "||  Read More ||"
-      - name: url
-        type: url
-        example: "/index/"
-  light:
-    title: "Light"
+      This is a variatian of the basic rectangular button used in several instances throughout the website. In this variation, the button will be used over images and any location that a simple and non-obstructive version is necessary.
+  button-light:
+    title: "Light Button"
     description: |
-      Another secondary button, the lighter variety of the basic button is used most sparingly. It is still solid and will not be used in banners, however will most likely be used for smaller, sub-features and actions.
-    width: "26em"
-    fields:
-      - name: link
-        type: string
-        example: "||  Read More  ||"
-      - name: url
-        type: url
-        example: "/index/"
+      This is a variatian of the basic rectangular button used in several instances throughout the website. In this variation, the button will be used in areas where the Ghost Button is innapropriate, but an unobstructive button is still needed.

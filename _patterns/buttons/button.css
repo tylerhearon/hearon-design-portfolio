@@ -1,0 +1,119 @@
+.btn {
+  padding: .75em 1.5em .75em 1.5em;
+  border-radius: .3em;
+}
+
+.btn-basic {
+  background-color: var(--color-primary-black);
+  background-image: linear-gradient(to bottom, var(--color-primary-black), #332F2D);
+  border: 2px solid var(--color-primary-mid-grey);
+}
+
+.btn-basic:hover {
+  background-color: var(--color-accent-green-shadow);
+  background-image: linear-gradient(to bottom, var(--color-accent-green-shadow), #354027);
+  border: 2px solid var(--color-accent-green);
+  color: var(--color-secondary-gold-light);
+}
+
+.btn-basic:visited {
+  background-color: var(--color-primary-black);
+  border: 2px solid var(--color-accent-green-shadow);
+  color: var(--color-secondary-gold);
+}
+
+.btn-ghost {
+  background-color: none;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-accent-green-shadow);
+  background-image: linear-gradient(to top, var(--color-secondary-gold), #FFD96F);
+  border: 2px solid var(--color-secondary-gold);
+  color: white;
+}
+
+.btn-ghost:visited {
+  background-color: var(--color-primary-black);
+  border: 2px solid var(--color-accent-green-shadow);
+  color: var(--color-secondary-gold);
+}
+
+.btn-light {
+  background-color: none;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-light:hover {
+  background-color: var(--color-accent-green-shadow);
+  background-image: linear-gradient(to top, var(--color-secondary-gold), #FFD96F);
+  border: 2px solid var(--color-secondary-gold);
+  color: white;
+}
+
+.btn-light:visited {
+  background-color: var(--color-primary-black);
+  border: 2px solid var(--color-accent-green-shadow);
+  color: var(--color-secondary-gold);
+}
+
+.pagebtn {
+  border: none;
+  color: var(--color-secondary-gold);
+  background-color: transparent;
+  text-align: center;
+  font-size: 2rem;
+  padding: .5em;
+  width: 4.5em;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: .2em;
+  text-align: center;
+  font-family: var(--font-primary);
+}
+
+.pagebtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.next span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -25px;
+  transition: 0.5s;
+}
+
+.previous span:before {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -30px;
+  transition: 0.5s;
+}
+
+.pagenext:hover span {
+  padding-right: 25px;
+}
+
+.pageprevious:hover span {
+  padding-left: 25px;
+}
+
+.pagebtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.pagebtn:hover span:before {
+  opacity: 1;
+  left: 0;
+}
