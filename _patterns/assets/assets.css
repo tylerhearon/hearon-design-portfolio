@@ -1,0 +1,59 @@
+.baseassetcardcontainer {
+  background-color: var(--color-primary-light-grey);
+  min-height: 15em;
+}
+
+.assetcardcontainer {
+  background-color: var(--color-primary-light-grey);
+}
+
+.assetcard {
+  background-color: #e9e9e9;
+}
+
+.coloursassetcard {
+  background-color: none;
+}
+
+.assettitle {
+  color: var(--color-primary-mid-grey);
+  font-weight: 300;
+}
+
+.assetleading {
+  color: var(--color-accent-green-shadow);
+  font-weight: bold;
+}
+
+.assettext {
+  font-weight: 300;
+  color: var(--color-primary-black);
+}
+
+
+.assettextoverflow {
+overflow: hidden;
+}
+
+.coloursquare {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: .4em;
+  margin: auto;
+}
+
+.colour1 {
+  background-color: pink;
+}
+
+.colour2 {
+  background-color: green;
+}
+
+.colour3 {
+  background-color: yellow;
+}
+
+.colour4 {
+  background-color: orange;
+}

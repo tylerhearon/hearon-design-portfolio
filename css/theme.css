@@ -19,6 +19,10 @@ html {
   font-family: var(--font-primary);
 }
 
+.pagespan {
+  max-width: 60em;
+}
+
 .font-primary {
   font-family: var(--font-primary);
 }
