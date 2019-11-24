@@ -1,0 +1,12 @@
+title: "Navigations"
+description: |
+  The main footer bar of the site is simple and self-explanatory. It contains a mailing link for direct email access, as well as a link to the pre-setup business Instagram account.
+patterns:
+  headernav:
+    title: "Small Header Navigation"
+    description: |
+      This is the main navigation of the portfolio site, used beneath the header images to allow visiors basic access to navigation throughout the site.
+  contactfooter:
+    title: "Bottom of Page - Contact Links"
+    description: |
+      This is the a smaller version of the main navigation of the site, used on all pages to allow users access to the basic contact information.

@@ -14,3 +14,11 @@ patterns:
     title: "Light Button"
     description: |
       This is a variatian of the basic rectangular button used in several instances throughout the website. In this variation, the button will be used in areas where the Ghost Button is innapropriate, but an unobstructive button is still needed.
+  pagebutton-next:
+    title: "Page Navigation Buttons - Next Work"
+    description: |
+      This is a variatian of the basic rectangular button used in several instances throughout the website. In this variation, the button will be used in areas where the Ghost Button is innapropriate, but an unobstructive button is still needed.
+  pagebutton-prev:
+    title: "Page Navigation Buttons - Previous Work"
+    description: |
+      This is a variatian of the basic rectangular button used in several instances throughout the website. In this variation, the button will be used in areas where the Ghost Button is innapropriate, but an unobstructive button is still needed.

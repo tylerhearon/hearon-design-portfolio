@@ -4,11 +4,3 @@
    height: 15em;
    color: white;
 }
-
-.darkborder {
-  border-bottom: 1px solid #C79A3A;
-}
-
-.goldborder {
-  border-bottom: 8px solid var(--color-secondary-gold);
-}

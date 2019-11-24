@@ -19,6 +19,18 @@ html {
   font-family: var(--font-primary);
 }
 
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+.whitetext {
+  color: white;
+}
+
 h1 {
   font-family: var(--font-secondary);
   color: var(--color-secondary-gold);
@@ -40,6 +52,7 @@ h3 {
 a {
   font-family: var(--font-primary);
   color: var(--color-secondary-gold);
+  text-decoration: none;
 }
 
 a:visited {
@@ -50,6 +63,7 @@ a:visited {
 a:hover {
   font-family: var(--font-primary);
   color: var(--color-secondary-gold-light);
+  text-decoration: underline;
 }
 
 a:active {
@@ -81,4 +95,12 @@ dl {
 
 dl>li:before {
   color: var(--color-secondary-gold);
+}
+
+.darkborder {
+  border-bottom: 1px solid #C79A3A;
+}
+
+.goldborder {
+  border-bottom: 3px solid var(--color-secondary-gold);
 }

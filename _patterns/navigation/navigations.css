@@ -11,10 +11,27 @@
   padding: .8em;
 }
 
+.navbuttonheader {
+  padding: .4em;
+}
+
 .landingnavbutton {
   padding: 1.5em;
 }
 
 .navbar {
-  border-bottom: 5px solid var(--color-secondary-gold);
+  border-bottom: 3px solid var(--color-secondary-gold);
+}
+
+.copyright {
+  font-weight: 300;
+  color: #999999;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .navbuttonheader {
+    padding: .6em;
+  }
+
 }
