@@ -6,7 +6,6 @@ patterns:
     title: "Branding Example - Colour Palette"
     description: |
       For most branding projects, the brand will likely be looking for new and exciting changes to their colour palette. This building block allows for up to four key colours of any piece, and can be used even outside of basic branding packages to showcase and explain colour choices throughout any particular portfolio piece.
-    width: 50em;
   BASE-siteblock:
     title: "Base"
     description: |

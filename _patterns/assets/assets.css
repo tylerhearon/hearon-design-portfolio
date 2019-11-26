@@ -3,7 +3,7 @@
   min-height: 15em;
 }
 
-.assetcardcontainer {
+.colourassetcardcontainer {
   background-color: var(--color-primary-light-grey);
 }
 
@@ -18,6 +18,8 @@
 .assettitle {
   color: var(--color-primary-mid-grey);
   font-weight: 300;
+  padding-left: 1.5em;
+  padding-top: .5em;
 }
 
 .assetleading {
@@ -31,15 +33,12 @@
 }
 
 
-.assettextoverflow {
-overflow: hidden;
-}
-
 .coloursquare {
-  width: 2.5em;
-  height: 2.5em;
-  border-radius: .4em;
+  width: 3em;
+  height: 3em;
+  border-radius: .5em;
   margin: auto;
+  border: 1px solid #b0b0b0;
 }
 
 .colour1 {
@@ -56,4 +55,10 @@ overflow: hidden;
 
 .colour4 {
   background-color: orange;
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
 }
