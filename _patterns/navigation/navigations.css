@@ -17,6 +17,10 @@
   padding-bottom: .5em;
 }
 
+.pagenavigations {
+
+}
+
 .navbuttonheader {
   padding: .4em;
 }
@@ -36,6 +40,19 @@
 .copyright {
   font-weight: 300;
   color: #999999;
+}
+
+.contacticon {
+  float: right;
+}
+
+.icon {
+  color: var(--color-secondary-gold);
+}
+
+.svgicon {
+  width: 1.2em;
+  height: 1.2em;
 }
 
 @media only screen and (min-width: 38em) {

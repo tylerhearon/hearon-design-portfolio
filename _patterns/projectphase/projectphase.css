@@ -93,6 +93,12 @@
   margin: auto;
 }
 
+.imagecontainer {
+  background-color: var(--color-accent-green-light);
+  min-height: 20em;
+  margin-bottom: 2em;
+}
+
 @media only screen and (min-width: 38em) {
 
   .assettitle {
@@ -101,6 +107,7 @@
 
   .introtitle {
     padding-left: 1em;
+    padding-top: .2em;
   }
 
   .fontchoices {
