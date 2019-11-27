@@ -1,18 +1,28 @@
 .mainnav {
   width: 100%;
-  border-bottom: 1px solid #C79A3A;
+  border-bottom: 1px solid black;
   background-color: var(--color-primary-black);
+}
+
+.navwrapper {
+  background-color: var(--color-primary-black);
+  background-image: linear-gradient(to top, var(--color-primary-black), #332F2D);
 }
 
 .navbutton {
   background-color: var(--color-primary-black);
   background-image: linear-gradient(to top, var(--color-primary-black), #332F2D);
   color: var(--color-secondary-gold);
-  padding: .8em;
+  padding-top: 1em;
+  padding-bottom: .5em;
 }
 
 .navbuttonheader {
   padding: .4em;
+}
+
+.navbuttonfooter {
+  padding-bottom: 1em;
 }
 
 .landingnavbutton {

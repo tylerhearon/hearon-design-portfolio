@@ -32,7 +32,6 @@
   color: var(--color-primary-black);
 }
 
-
 .coloursquare {
   width: 3em;
   height: 3em;
@@ -57,8 +56,55 @@
   background-color: orange;
 }
 
+.introtitle {
+  color: var(--color-primary-mid-grey);
+  font-weight: 300;
+  padding-left: 1.5em;
+  padding-top: 1em;
+}
+
+.introleading {
+  color: var(--color-accent-green-shadow);
+  font-weight: bold;
+}
+
+.introtext {
+  font-weight: 300;
+  color: var(--color-primary-black);
+}
+
+.bar {
+  background-color: black;
+  height: 1.5px;
+}
+
+.bars {
+  width: 6em;
+  margin: auto;
+}
+
+.blackbartop {
+  width: 100%;
+  margin: auto;
+}
+
+.blackbarbottom {
+  width: 60%;
+  margin: auto;
+}
+
 @media only screen and (min-width: 38em) {
 
+  .assettitle {
+    padding-left: 1em;
+  }
 
+  .introtitle {
+    padding-left: 1em;
+  }
+
+  .fontchoices {
+    padding-left: 3em;
+  }
 
 }
