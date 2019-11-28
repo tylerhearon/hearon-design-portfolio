@@ -1,0 +1,84 @@
+.selfintrotitle {
+  color: var(--color-primary-mid-grey);
+  font-weight: 300;
+  padding-left: 1.25em;
+  padding-top: 1em;
+}
+
+.selfintrosubtitle {
+  padding-left: 2.25em;
+  font-weight: 300;
+}
+
+.projectcardimage {
+  height: 15em;
+}
+
+.projectcardtitle {
+  color: var(--color-primary-mid-grey);
+  font-weight: 300;
+  padding-left: 0;
+  padding-top: .5em;
+}
+
+.projectcardtextcontainer {
+  position: relative;
+}
+
+.projectcardtextbox {
+  position: absolute;
+  bottom: .2em;
+  right: 1em;
+}
+
+.projectcardtextbox-left{
+  position: absolute;
+  bottom: .2em;
+  left: 1em;
+}
+
+.projectsoverviewleading {
+  color: var(--color-accent-green-shadow);
+  font-weight: bold;
+}
+
+.projectsoverviewtext {
+  font-weight: 300;
+  color: var(--color-primary-black);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .selfintrosubtitle {
+    padding-left: 3em;
+  }
+
+  .selfintroblock {
+    padding-left: 0.5em;
+  }
+
+}
+
+@media only screen and (min-width: 830px) {
+
+  .selfintroblock {
+    padding-left: 5em;
+  }
+
+}
+
+@media only screen and (min-width: 830px) {
+
+  .selfintroblock {
+    padding-left: 5em;
+  }
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+  .selfintroblock {
+    padding-left: 10em;
+  }
+
+}

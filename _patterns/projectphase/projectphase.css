@@ -22,6 +22,11 @@
   padding-top: .5em;
 }
 
+.assetsubtitle {
+  padding-left: 4em;
+  font-weight: 300;
+}
+
 .assetleading {
   color: var(--color-accent-green-shadow);
   font-weight: bold;
@@ -40,27 +45,23 @@
   border: 1px solid #b0b0b0;
 }
 
-.colour1 {
-  background-color: pink;
-}
-
-.colour2 {
-  background-color: green;
-}
-
-.colour3 {
-  background-color: yellow;
-}
-
-.colour4 {
-  background-color: orange;
-}
-
 .introtitle {
   color: var(--color-primary-mid-grey);
   font-weight: 300;
   padding-left: 1.5em;
   padding-top: 1em;
+}
+
+.projectsoverviewintro {
+  color: var(--color-primary-mid-grey);
+  font-weight: 300;
+  padding-left: 1.5em;
+  padding-top: 1em;
+}
+
+.introsubtitle {
+  padding-left: 4em;
+  font-weight: 300;
 }
 
 .introleading {
@@ -69,6 +70,11 @@
 }
 
 .introtext {
+  font-weight: 300;
+  color: var(--color-primary-black);
+}
+
+.introtextprojects {
   font-weight: 300;
   color: var(--color-primary-black);
 }

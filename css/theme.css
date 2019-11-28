@@ -32,6 +32,26 @@ html {
   font-family: var(--font-secondary);
 }
 
+.mgreen {
+  color: var(--color-accent-green);
+  background-color: var(--color-accent-green);
+}
+
+.lgreen {
+  color: var(--color-accent-green-light);
+  background-color: var(--color-accent-green-light);
+}
+
+.dgreen {
+  color: var(--color-accent-green-shadow);
+  background-color: var(--color-accent-green-shadow);
+}
+
+.dgrey {
+  color: var(--color-primary-black);
+  background-color: var(--color-primary-black);
+}
+
 .whitetext {
   color: white;
 }

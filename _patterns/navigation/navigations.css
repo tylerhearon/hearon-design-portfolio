@@ -7,6 +7,10 @@
 .navwrapper {
   background-color: var(--color-primary-black);
   background-image: linear-gradient(to top, var(--color-primary-black), #332F2D);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-top: 3px solid var(--color-secondary-gold);
 }
 
 .navbutton {
@@ -46,19 +50,35 @@
   float: right;
 }
 
-.icon {
+.headericon {
   color: var(--color-secondary-gold);
 }
 
 .svgicon {
   width: 1.2em;
   height: 1.2em;
+  transition: all 0.5s;
+
+}
+
+.svgicon:hover {
+  color: var(--color-secondary-gold-light);
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.iconshift {
+  transition: all 0.5s;
+}
+
+.iconshift:hover {
+  margin-bottom: 0.5em;
 }
 
 @media only screen and (min-width: 38em) {
 
   .navbuttonheader {
-    padding: .6em;
+    padding: 0.2em;
   }
 
 }

@@ -9,4 +9,8 @@ patterns:
   contactfooter:
     title: "Bottom of Page - Contact Links"
     description: |
-      This is the a smaller version of the main navigation of the site, used on all pages to allow users access to the basic contact information.
+      This is the footer version of the main navigation of the site, used on all pages to allow users access to the basic contact information once reaching the end of the content.
+  pagenavigations:
+    title: "Navigation Between Project Pages"
+    description: |
+      This is the inter-project navigation that will be used on all of the main project pages. Until more portfolio pieces can be added to diversify, this navigation will cycle through all pieces regardless of category.
