@@ -3,33 +3,33 @@ description: |
   The term assets is used to describe any part of each portfolio page that is dedicated to the display of gathered final assets that are not expressly images, i.e. brand colours, fonts and basic style building blocks.
 patterns:
   projectintro:
-    title: "Project Phase: Step One - Introduction"
+    title: "Project Phase: Stage One - Introduction"
     description: |
        In the introduction of the project, the background information relevant to the client/project will be given. This will include anything that was given by the client or is common knowledge. It will present each particular study in the form of a problem that needed to be solved.
-  stepone:
-    title: "Project Phase: Step One - Background and Current Use"
+  stageone:
+    title: "Project Phase: Stage One - Background and Current Use"
     description: |
-       In the first step of the project, this section will touch briefly on background (if any) of visual brand or project, and its current use across any applications. All the relevant background research conducted after the project will be included and referenced.
-  steptwo:
-    title: "Project Phase: Step Two - Drafts and Progression Work"
+       In the first stage of the project, this section will touch briefly on background (if any) of visual brand or project, and its current use across any applications. All the relevant background research conducted after the project will be included and referenced.
+  stagetwo:
+    title: "Project Phase: Stage Two - Drafts and Progression Work"
     description: |
-       In the second step of the project, the beginning of the new designwork will start to become visualized. This section will include images of sketches and various iterations of progression, as well as notes on key sources of inspiration drawn from the previous section.
-  stepthree:
-    title: "Project Phase: Step Three - Finalization of the Project"
+       In the second stage of the project, the beginning of the new designwork will start to become visualized. This section will include images of sketches and various iterations of progression, as well as notes on key sources of inspiration drawn from the previous section.
+  stagethree:
+    title: "Project Phase: Stage Three - Finalization of the Project"
     description: |
-       In the third step of the project, the final project deliverables will be presented. Included in the descriptions will be particular challenges faced throughout the design process and how they were solved throughout the final production of the piece.
+       In the third stage of the project, the final project deliverables will be presented. Included in the descriptions will be particular challenges faced throughout the design process and how they were solved throughout the final production of the piece.
   colours:
-    title: "Project Phase: Step Three - New Colour Palette"
+    title: "Project Phase: Stage Three - New Colour Palette"
     description: |
       For most branding projects, the brand will likely be looking for new and exciting changes to their colour palette. This building block allows for up to four key colours of any piece, and can be used even outside of basic branding packages to showcase and explain colour choices throughout any particular portfolio piece.
   fontstyles:
-    title: "Project Phase: Step Three - New Font Selection"
+    title: "Project Phase: Stage Three - New Font Selection"
     description: |
       For most branding projects, the brand will also be using one (or two) new fonts that better fit their brand, and this section will serve to showcase those choices.
   projectwrapup:
     title: "Project Phase: Complete - The Delivery"
     description: |
-       In this final step of the project, the deliverables have been presented. This short paragraph will detail any particular lessons learned throughout the project itself, as well as any key facets noticed in production that have helped support my growth and learning.
+       In this final stage of the project, the deliverables have been presented. This short paragraph will detail any particular lessons learned throughout the project itself, as well as any key facets noticed in production that have helped support my growth and learning.
   BASE-siteblock:
     title: "Base Building Block"
     description: |
