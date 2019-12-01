@@ -1,6 +1,6 @@
 # Tyler Hearon
 
-#### [Hearon Design](https://hearon.design)
+#### Portfolio at **[Hearon Design](https://hearon.design)**
 #### Email at **[tyler@hearon.design](mailto:tyler@hearon.design)**
 ---
 
