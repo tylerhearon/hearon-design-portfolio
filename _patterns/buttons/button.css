@@ -86,6 +86,14 @@
   transition: 0.5s;
 }
 
+.nextbutton {
+  padding-right: 1em;
+}
+
+.previousbutton {
+  padding-left: 1em;
+}
+
 .nextbutton span:after {
   content: '\00bb';
   position: absolute;

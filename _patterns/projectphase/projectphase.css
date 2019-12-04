@@ -59,12 +59,26 @@
   padding-top: 1em;
 }
 
-.introsubtitle {
+.introsubtitleinline {
+  display: inline;
+}
+
+.introsubtitlename {
   padding-left: 4em;
+}
+
+.introsubtitletype {
   font-weight: 300;
+  padding-left: .2em;
 }
 
 .introleading {
+  color: var(--color-accent-green-shadow);
+  font-weight: bold;
+  padding-top: 1.5em;
+}
+
+.stageleading {
   color: var(--color-accent-green-shadow);
   font-weight: bold;
 }

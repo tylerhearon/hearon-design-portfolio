@@ -57,20 +57,18 @@ html {
 }
 
 h1 {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   color: var(--color-secondary-gold);
   font-weight: 700;
 }
 
 h2 {
   font-family: var(--font-primary);
-  color: var(--color-secondary-gold);
   font-weight: 700;
 }
 
 h3 {
   font-family: var(--font-primary);
-  color: var(--color-secondary-gold);
   font-weight: 700;
 }
 

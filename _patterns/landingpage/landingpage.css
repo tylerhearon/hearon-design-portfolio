@@ -26,15 +26,11 @@
 }
 
 .projectcardtextbox {
-  position: absolute;
-  bottom: .2em;
-  right: 1em;
+
 }
 
 .projectcardtextbox-left{
-  position: absolute;
-  bottom: .2em;
-  left: 1em;
+
 }
 
 .projectsoverviewleading {
@@ -45,6 +41,21 @@
 .projectsoverviewtext {
   font-weight: 300;
   color: var(--color-primary-black);
+}
+
+@media only screen and (min-width: 25em) {
+
+  .projectcardtextbox {
+    position: absolute;
+    bottom: .2em;
+    right: 1em;
+  }
+
+  .projectcardtextbox-left{
+    position: absolute;
+    bottom: .2em;
+    left: 1em;
+  }
 }
 
 @media only screen and (min-width: 38em) {
