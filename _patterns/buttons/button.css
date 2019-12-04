@@ -24,8 +24,8 @@
 
 .btn-ghost {
   background-color: none;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid var(--color-primary-black);
+  color: var(--color-primary-black);
 }
 
 .btn-ghost:hover {
