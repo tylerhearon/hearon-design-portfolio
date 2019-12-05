@@ -54,25 +54,31 @@
   color: var(--color-secondary-gold);
 }
 
-.svgicon {
+.iconshift {
+  transition: all 0.5s;
+  width: 2em;
+  display: inline-block;
+}
+
+.iconshift .icon {
   width: 1.2em;
   height: 1.2em;
   transition: all 0.5s;
-
+  position: relative;
+  top: .5em;
 }
 
-.svgicon:hover {
-  color: var(--color-secondary-gold-light);
-  width: 1.8em;
-  height: 1.8em;
-}
-
-.iconshift {
+.iconshift-label {
+  opacity: 0;
   transition: all 0.5s;
 }
 
-.iconshift:hover {
-  margin-bottom: 0.5em;
+.iconshift:hover .icon {
+    top: 0;
+}
+
+.iconshift:hover .iconshift-label {
+  opacity: 1;
 }
 
 @media only screen and (min-width: 38em) {
