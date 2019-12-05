@@ -117,18 +117,33 @@
   margin-bottom: 2em;
 }
 
+@media only screen and (min-width: 25em) {
+
+  .paragraphgutter-2 {
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .assettitle {
     padding-left: 1em;
   }
 
-  .introtitle {
-
-  }
-
   .fontchoices {
     padding-left: 3em;
+  }
+
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .paragraphgutter-2 {
+    padding-left: 0;
+    padding-right: 0;
   }
 
 }

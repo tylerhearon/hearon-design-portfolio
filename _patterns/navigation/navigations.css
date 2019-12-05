@@ -54,23 +54,25 @@
   color: var(--color-secondary-gold);
 }
 
+
 .iconshift {
-  transition: all 0.5s;
-  width: 2em;
+  transition: all 0.2s linear;
+  width: 3.5em;
   display: inline-block;
 }
 
 .iconshift .icon {
-  width: 1.2em;
-  height: 1.2em;
-  transition: all 0.5s;
+  width: 1.6em;
+  height: 1.6em;
+  transition: all 0.2s linear;
   position: relative;
   top: .5em;
 }
 
 .iconshift-label {
   opacity: 0;
-  transition: all 0.5s;
+  transition: all 0.2s linear;
+  text-decoration: none;
 }
 
 .iconshift:hover .icon {
