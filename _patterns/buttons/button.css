@@ -75,8 +75,10 @@
   font-family: var(--font-primary);
 }
 
-.pagenext {
-  float: right;
+.pagebtn:hover {
+  border: none;
+  color: #999;
+  background-color: transparent;
 }
 
 .pagebtn span {
@@ -84,6 +86,20 @@
   display: inline-block;
   position: relative;
   transition: 0.5s;
+}
+
+.pagebtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.pagebtn:hover span:before {
+  opacity: 1;
+  left: 0;
+}
+
+.pagenext {
+  float: right;
 }
 
 .nextbutton {
@@ -103,6 +119,10 @@
   transition: 0.5s;
 }
 
+.pagenext:hover span {
+  padding-right: 40px;
+}
+
 .previousbutton span:before {
   content: '\00ab';
   position: absolute;
@@ -112,20 +132,6 @@
   transition: 0.5s;
 }
 
-.pagenext:hover span {
-  padding-right: 40px;
-}
-
 .pageprevious:hover span {
   padding-left: 40px;
-}
-
-.pagebtn:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-.pagebtn:hover span:before {
-  opacity: 1;
-  left: 0;
 }
