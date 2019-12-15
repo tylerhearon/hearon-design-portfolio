@@ -5,20 +5,25 @@
       <input id="name" name="name" placeholder="Tyler" aria-label="enter first name" required>
     </div>
     <div class="push checkout-options">
-      <label for="tel" class="text-upper text-left push-1-4 bold">Phone Number</label>
+      <label for="tel" class="text-upper text-left push-1-4 bold">Contact Number</label>
       <input type="tel" id="tel" aria-label="Enter Phone Number" name="tel" required>
     </div>
   </div>
   <div class="unit xs-1 s-1 m-1-2 gutter-1-4">
     <div class="push checkout-options">
-      <label for="address" class="text-upper text-left push-1-4 bold">E-Mail Address</label>
-      <input id="address" aria-label="Enter Shipping Address" name="address" required>
+      <label for="tel" class="text-upper text-left push-1-4 bold">I am emailing about...</label>
+      <input id="country" list="country-list" required>
+      <datalist id="country-list">
+        <option value="Canada">
+        <option value="USA">
+        <option value="Other">
+      </datalist>
     </div>
     <div class="grid">
     </div>
         <div class="checkout-options">
-          <label for="country" class="text-upper bold pad-b-1-4">PUT SOMETHING ELSE HERE</label>
-          <input id="country" list="country-list" required>
+          <label for="form-projecttype" class="text-upper bold pad-b-1-4">Prospective Project Type...</label>
+          <input id="form-projecttype" list="form-projecttype-list" required>
           <datalist id="country-list">
             <option value="Canada">
             <option value="USA">
