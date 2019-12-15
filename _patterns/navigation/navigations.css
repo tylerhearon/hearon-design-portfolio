@@ -21,10 +21,6 @@
   padding-bottom: .5em;
 }
 
-.pagenavigations {
-
-}
-
 .navbuttonheader {
   padding: .4em;
 }
@@ -38,6 +34,7 @@
 }
 
 .navbar {
+  padding-top: 1.5em;
   border-bottom: 3px solid var(--color-secondary-gold);
 }
 
