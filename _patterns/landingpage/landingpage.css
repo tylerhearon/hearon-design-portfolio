@@ -40,6 +40,11 @@
   color: var(--color-primary-black);
 }
 
+.linksquare {
+  height: 8em;
+}
+
+
 @media only screen and (min-width: 25em) {
 
   .projectcardtextbox {
@@ -63,7 +68,6 @@
   }
 
 }
-
 
 @media only screen and (min-width: 65em) {
 
