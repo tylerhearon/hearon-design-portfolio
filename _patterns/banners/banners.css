@@ -4,3 +4,8 @@
    height: 22em;
    color: white;
 }
+
+.bannerimg {
+  background-image: linear-gradient(to top, #191919, var(--color-primary-black));
+  background-size: cover;
+}

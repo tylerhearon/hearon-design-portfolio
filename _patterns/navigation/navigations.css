@@ -6,7 +6,7 @@
 
 .navwrapper {
   background-color: var(--color-primary-black);
-  background-image: linear-gradient(to top, var(--color-primary-black), #332F2D);
+  background-image: linear-gradient(to top, var(--color-primary-black), #292624);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -15,7 +15,7 @@
 
 .navbutton {
   background-color: var(--color-primary-black);
-  background-image: linear-gradient(to top, var(--color-primary-black), #332F2D);
+  background-image: linear-gradient(to top, var(--color-primary-black), #292624);
   color: var(--color-secondary-gold);
   padding-top: 1em;
   padding-bottom: .5em;

@@ -5,7 +5,7 @@
 
 .btn-basic {
   background-color: var(--color-primary-black);
-  background-image: linear-gradient(to bottom, var(--color-primary-black), #332F2D);
+  background-image: linear-gradient(to bottom, var(--color-primary-black), #292624);
   border: 2px solid var(--color-primary-mid-grey);
 }
 
