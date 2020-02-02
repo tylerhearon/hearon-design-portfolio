@@ -52,6 +52,10 @@ html {
   background-color: var(--color-primary-black);
 }
 
+.goldshadow-text {
+  color: var(--color-secondary-gold-shadow);
+}
+
 .whitetext {
   color: white;
 }
