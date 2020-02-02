@@ -30,15 +30,19 @@
 
 .btn-ghost:hover {
   background-color: var(--color-accent-green-shadow);
-  background-image: linear-gradient(to top, var(--color-secondary-gold), #FFD96F);
-  border: 2px solid var(--color-secondary-gold);
+  background-image: linear-gradient(to top, #b0b0b0, #c7c7c7);
+  border: 2px solid var(--color-primary-mid-grey);
   color: white;
 }
 
 .btn-ghost:visited {
   background-color: var(--color-primary-black);
   border: 2px solid var(--color-accent-green-shadow);
-  color: var(--color-secondary-gold);
+  color: var(--color-accent-green-shadow);
+}
+
+.btn-ghost:visited .btn-ghost:hover {
+  color: white;
 }
 
 .btn-light {
