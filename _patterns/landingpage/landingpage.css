@@ -5,6 +5,15 @@
   padding-top: 1em;
 }
 
+.selfintrobio {
+  padding-left: 2.25em;
+}
+
+.bioavatar {
+  min-height: 15em;
+  max-height: 30em;
+}
+
 .selfintrosubtitle {
   padding-left: 2.25em;
   font-weight: 300;
