@@ -63,7 +63,7 @@
   height: 1.6em;
   transition: all 0.2s linear;
   position: relative;
-  top: .5em;
+  top: .6em;
 }
 
 .iconshift-label {
@@ -73,7 +73,7 @@
 }
 
 .iconshift:hover .icon {
-    top: 0;
+    top: -.1em;
 }
 
 .iconshift:hover .iconshift-label {
