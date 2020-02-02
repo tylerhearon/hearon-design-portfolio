@@ -48,6 +48,11 @@
   margin: .15em;
 }
 
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--color-primary-green-shadow);
+}
+
 
 @media only screen and (min-width: 25em) {
 
