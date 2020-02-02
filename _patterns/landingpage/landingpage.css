@@ -5,6 +5,11 @@
   padding-top: .5em;
 }
 
+.contacttitle {
+  color: var(--color-primary-mid-grey);
+  font-weight: 300;
+}
+
 .selfintrobio {
   padding-left: 2.25em;
 }
@@ -25,7 +30,13 @@
 }
 
 .projectcardimage {
-  height: 15em;
+  min-height: 15em;
+  max-height: 30em;
+}
+
+.p-projectcardimage {
+  min-height: 15em;
+  max-height: 30em;
 }
 
 .projectcardtitle {

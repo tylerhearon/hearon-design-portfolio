@@ -1,0 +1,17 @@
+.maxwidth-formcards {
+  max-width: 900px;
+}
+
+.form-textarea {
+  min-height: 10em;
+  resize: vertical;
+}
+
+.submitbutton {
+  margin: auto;
+}
+
+
+.form-label {
+  font-weight: light;
+}
