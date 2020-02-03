@@ -13,6 +13,10 @@
   display: block;
 }
 
+.topbutton {
+  padding-right: 1em
+}
+
 .btn-basic {
   background-color: transparent;
   background-image: linear-gradient(to bottom, var(--color-primary-black), #292624);
@@ -129,6 +133,11 @@
   padding-left: 1em;
 }
 
+.buttonclickable {
+  height: 8em;
+  width: 8em;
+}
+
 .nextbutton span:after {
   content: '\00bb';
   position: absolute;
@@ -153,4 +162,21 @@
 
 .pageprevious:hover span {
   padding-left: 40px;
+}
+
+
+@media only screen and (min-width:38em) {
+
+  .topbutton {
+    padding-right: 2em
+  }
+
+}
+
+@media only screen and (min-width:60em) {
+
+  .topbutton {
+    padding-right: 3.5em
+  }
+
 }
