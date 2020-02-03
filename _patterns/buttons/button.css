@@ -3,6 +3,16 @@
   border-radius: .3em;
 }
 
+.btn-round {
+  padding: 1.5em;
+  border-radius: 3em;
+  text-decoration: none;
+}
+
+.displayblock {
+  display: block;
+}
+
 .btn-basic {
   background-color: transparent;
   background-image: linear-gradient(to bottom, var(--color-primary-black), #292624);
@@ -43,6 +53,30 @@
 }
 
 .btn-ghost:visited .btn-ghost:hover {
+  color: white;
+}
+
+
+.btn-ghost-top {
+  background-color: transparent;
+  border: none;
+  color: var(--color-primary-mid-grey);
+  transition: .1s ease;
+}
+
+.btn-ghost-top:hover {
+  background-color: transparent;
+  border: 2px solid var(--color-secondary-gold);
+  color: var(--color-secondary-gold);
+}
+
+.btn-ghost-top:visited {
+  background-color: var(--color-accent-green);
+  border: 2px solid var(--color-secondary-gold-shadow);
+  color: var(--color-secondary-gold-shadow);
+}
+
+.btn-ghost-top:visited .btn-ghost:hover {
   color: white;
 }
 
