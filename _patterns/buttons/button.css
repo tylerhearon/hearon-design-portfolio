@@ -4,13 +4,14 @@
 }
 
 .btn-basic {
-  background-color: var(--color-primary-black);
+  background-color: transparent;
   background-image: linear-gradient(to bottom, var(--color-primary-black), #292624);
   border: 2px solid var(--color-primary-mid-grey);
+  transition: .1s ease;
 }
 
 .btn-basic:hover {
-  background-color: var(--color-accent-green-shadow);
+  background-color: black;
   background-image: linear-gradient(to bottom, var(--color-accent-green-shadow), #354027);
   border: 2px solid var(--color-accent-green);
   color: var(--color-secondary-gold-light);
@@ -23,9 +24,10 @@
 }
 
 .btn-ghost {
-  background-color: none;
-  border: 2px solid var(--color-accent-green);
-  color: var(--color-accent-green);
+  background-color: transparent;
+  border: 2px solid var(--color-accent-green-shadow);
+  color: var(--color-accent-green-shadow);
+  transition: .1s ease;
 }
 
 .btn-ghost:hover {
@@ -42,26 +44,6 @@
 
 .btn-ghost:visited .btn-ghost:hover {
   color: white;
-}
-
-.btn-light {
-  background-color: var(--color-primary-mid-grey);
-  background-image: linear-gradient(to top, #999, var(--color-primary-light-grey));
-  border: 2px solid var(--color-primary-light-grey);
-  color: white;
-}
-
-.btn-light:hover {
-  background-color: var(--color-accent-green-shadow);
-  background-image: linear-gradient(to top, var(--color-accent-green-shadow), var(--color-accent-green));
-  border: 2px solid var(--color-accent-green-shadow);
-  color: white;
-}
-
-.btn-light:visited {
-  background-color: var(--color-primary-black);
-  border: 2px solid var(--color-accent-green-shadow);
-  color: var(--color-secondary-gold);
 }
 
 .pagebtn {

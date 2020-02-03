@@ -30,8 +30,7 @@
 }
 
 .projectcardimage {
-  min-height: 15em;
-  max-height: 30em;
+  height: 18em;
 }
 
 .p-projectcardimage {

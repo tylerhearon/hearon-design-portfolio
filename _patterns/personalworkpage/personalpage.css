@@ -1,3 +1,11 @@
 .personalpiece-image {
   height: 30em;
 }
+
+.projectsubtitle-right {
+  padding-right: 0;
+}
+
+.projectsubtitle-left {
+  padding-left: 0;
+}
