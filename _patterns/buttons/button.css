@@ -24,8 +24,8 @@
 
 .btn-ghost {
   background-color: none;
-  border: 2px solid var(--color-primary-black);
-  color: var(--color-primary-black);
+  border: 2px solid var(--color-accent-green);
+  color: var(--color-accent-green);
 }
 
 .btn-ghost:hover {
@@ -36,9 +36,9 @@
 }
 
 .btn-ghost:visited {
-  background-color: var(--color-primary-black);
-  border: 2px solid var(--color-accent-green-shadow);
-  color: var(--color-accent-green-shadow);
+  background-color: var(--color-accent-green);
+  border: 2px solid var(--color-secondary-gold-shadow);
+  color: var(--color-secondary-gold-shadow);
 }
 
 .btn-ghost:visited .btn-ghost:hover {

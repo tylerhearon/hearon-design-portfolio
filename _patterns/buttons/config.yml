@@ -10,10 +10,6 @@ patterns:
     title: "Ghost Button"
     description: |
       This is a variatian of the basic rectangular button used in several instances throughout the website. In this variation, the button will be used over images and any location that a simple and non-obstructive version is necessary.
-  button-light:
-    title: "Light Button"
-    description: |
-      This is a variatian of the basic rectangular button used in several instances throughout the website. In this variation, the button will be used in areas where the Ghost Button is innapropriate, but an unobstructive button is still needed.
   pagebutton-next:
     title: "Page Navigation Buttons - Next Work"
     description: |
