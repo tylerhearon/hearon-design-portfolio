@@ -67,8 +67,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  border-top: 13px solid var(--color-primary-light-grey);
-  border-left: 13px solid var(--color-primary-light-grey);
+  border-top: 25px solid var(--color-primary-light-grey);
+  border-left: 25px solid var(--color-primary-light-grey);
 }
 
 .linksquareimage {
