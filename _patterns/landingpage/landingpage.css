@@ -198,12 +198,19 @@
   }
 
   .landinghello {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
+    line-height: 1rem;
   }
 
   .landingname {
+    line-height: 2.2rem;
+    padding-bottom: .8em;
+  }
+
+
+  .landing-mynameis {
+    padding-top: .8em;
     line-height: 2rem;
-    padding-top: 4em;
   }
 
 }
