@@ -7,11 +7,11 @@
 
 .bannerimg {
   background-image: linear-gradient(to top, #191919, var(--color-primary-black));
-  background-image: url("../images/banner.jpg");
+  background-image: url("../images/banner.svg");
   background-size: cover;
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 25em) {
 
   .imageplaceholder {
      height: 10em;
@@ -19,10 +19,18 @@
 
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) {
 
   .imageplaceholder {
      height: 13em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .imageplaceholder {
+     height: 16em;
   }
 
 }
