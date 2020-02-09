@@ -53,7 +53,7 @@
 
 
 .iconshift {
-  transition: all 0.2s linear;
+  transition: all 0.2s ease;
   width: 3.5em;
   display: inline-block;
 }
@@ -61,14 +61,14 @@
 .iconshift .icon {
   width: 1.6em;
   height: 1.6em;
-  transition: all 0.2s linear;
+  transition: all 0.2s ease;
   position: relative;
   top: .6em;
 }
 
 .iconshift-label {
   opacity: 0;
-  transition: all 0.2s linear;
+  transition: all 0.2s ease;
   text-decoration: none;
 }
 

@@ -86,12 +86,12 @@
 
 .pagebtn {
   border: none;
-  color: #999;
+  color: var(--color-primary-mid-grey);
   background-color: transparent;
   text-align: center;
   padding: .5em;
   width: 4.5em;
-  transition: all 0.5s;
+  transition: 0.5s ease;
   cursor: pointer;
   margin: .2em;
   text-align: center;
@@ -100,7 +100,7 @@
 
 .pagebtn:hover {
   border: none;
-  color: #999;
+  color: var(--color-primary-mid-grey);
   background-color: transparent;
 }
 
