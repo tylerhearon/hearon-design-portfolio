@@ -1,7 +1,7 @@
 .imageplaceholder {
    background-color: var(--color-primary-black);
    width: 100%;
-   height: 8em;
+   height: 10em;
    color: white;
 }
 
@@ -14,7 +14,7 @@
 @media only screen and (min-width: 25em) {
 
   .imageplaceholder {
-     height: 10em;
+     height: 13em;
   }
 
 }
@@ -22,7 +22,7 @@
 @media only screen and (min-width: 38em) {
 
   .imageplaceholder {
-     height: 13em;
+     height: 16em;
   }
 
 }
@@ -30,7 +30,7 @@
 @media only screen and (min-width: 60em) {
 
   .imageplaceholder {
-     height: 16em;
+     height: 20em;
   }
 
 }
