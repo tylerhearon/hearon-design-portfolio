@@ -65,7 +65,7 @@
   background-color: transparent;
   border: none;
   color: var(--color-primary-mid-grey);
-  transition: .1s ease;
+  transition: .2s ease;
 }
 
 .btn-ghost-top:hover {
