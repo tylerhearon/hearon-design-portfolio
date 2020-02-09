@@ -10,4 +10,4 @@ I believe that there is an incredible amount growth and insight to be found in t
 
 ---
 
-&copy; Tyler Hearon, 2019
+&copy; Tyler Hearon, 2020
