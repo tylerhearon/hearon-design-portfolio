@@ -51,6 +51,17 @@
   color: var(--color-secondary-gold);
 }
 
+.headericon:visited {
+  color: var(--color-secondary-gold);
+}
+
+.headericon:active {
+  color: var(--color-accent-green);
+}
+
+.headericon:link {
+  color: var(--color-secondary-gold-shadow);
+}
 
 .iconshift {
   transition: all 0.2s ease;
