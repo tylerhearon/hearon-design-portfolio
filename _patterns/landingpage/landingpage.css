@@ -8,7 +8,6 @@
 .mepage-selfintrotitle {
   color: var(--color-primary-mid-grey);
   font-weight: 300;
-  padding-right: 1.25em;
   padding-top: .5em;
 }
 
@@ -56,7 +55,6 @@
 }
 
 .mepage-selfintrosubtitle {
-  padding-right: 2.25em;
   font-weight: 300;
 }
 
@@ -207,10 +205,6 @@
 
   .selfintrosubtitle {
     padding-left: 3em;
-  }
-
-  .mepage-selfintrosubtitle {
-    padding-right: 3em;
   }
 
   .landinghello {
