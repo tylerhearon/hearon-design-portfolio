@@ -5,6 +5,13 @@
   padding-top: .5em;
 }
 
+.mepage-selfintrotitle {
+  color: var(--color-primary-mid-grey);
+  font-weight: 300;
+  padding-right: 1.25em;
+  padding-top: .5em;
+}
+
 .margincenter {
   margin: auto;
 }
@@ -19,8 +26,11 @@
 }
 
 .bioavatar {
-  min-height: 15em;
-  max-height: 40em;
+  min-height: 18em;
+  max-height:30em;
+  background-image: url("../images/me-current.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .aboutme-bioavatar {
@@ -35,6 +45,11 @@
 
 .selfintrosubtitle {
   padding-left: 2.25em;
+  font-weight: 300;
+}
+
+.mepage-selfintrosubtitle {
+  padding-right: 2.25em;
   font-weight: 300;
 }
 
@@ -184,6 +199,10 @@
     padding-left: 3em;
   }
 
+  .mepage-selfintrosubtitle {
+    padding-right: 3em;
+  }
+
   .landingname {
     line-height: 2.5rem;
   }
@@ -193,6 +212,11 @@
 @media only screen and (min-width: 65em) {
 
   .selfintrotitle {
+    font-size: 4.5rem;
+    line-height: 5.98rem;
+  }
+
+  .mepage-selfintrotitle {
     font-size: 4.5rem;
     line-height: 5.98rem;
   }
