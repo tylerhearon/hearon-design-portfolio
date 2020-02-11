@@ -26,11 +26,13 @@
 }
 
 .bioavatar {
-  min-height: 18em;
-  max-height:30em;
+  min-height: 10em;
   background-image: url("../images/me-current.svg");
-  background-size: cover;
   background-repeat: no-repeat;
+}
+
+.bioavatarbig {
+  margin: auto;
 }
 
 .aboutme-bioavatar {
@@ -40,7 +42,6 @@
 .bioavatar-2 {
   height: 10em;
   display: block;
-
 }
 
 .selfintrosubtitle {
@@ -165,7 +166,6 @@
 }
 
 .landinghello {
-  padding-top: 2em;
   font-weight: 300;
   color: var(--color-primary-mid-grey);
 }
@@ -203,8 +203,24 @@
     padding-right: 3em;
   }
 
+  .landinghello {
+    padding-top: 2em;
+  }
+
   .landingname {
     line-height: 2.5rem;
+  }
+
+  .bioavatar-2 {
+    height: 0;
+    width: 0;
+  }
+
+  .bioavatar {
+    min-height: 18em;
+    max-height: 50em;
+    background-image: url("../images/full.svg");
+    background-repeat: no-repeat;
   }
 
 }
