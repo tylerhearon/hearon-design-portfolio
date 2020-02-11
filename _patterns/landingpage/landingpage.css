@@ -31,6 +31,12 @@
   background-repeat: no-repeat;
 }
 
+.aboutme-bioavatar {
+  min-height: 10em;
+  background-image: url("../images/me-current.svg");
+  background-repeat: no-repeat;
+}
+
 .bioavatarbig {
   margin: auto;
 }
@@ -176,6 +182,10 @@
   line-height: 1.5rem;
 }
 
+.bkgcover {
+  background-size: cover;
+}
+
 @media only screen and (min-width: 25em) {
 
   .projectcardtextbox {
@@ -220,6 +230,13 @@
     min-height: 18em;
     max-height: 50em;
     background-image: url("../images/full.svg");
+    background-repeat: no-repeat;
+  }
+
+  .aboutme-bioavatar {
+    min-height: 18em;
+    max-height: 50em;
+    background-image: url("../images/me-current.svg");
     background-repeat: no-repeat;
   }
 
