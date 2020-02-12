@@ -26,7 +26,7 @@
 
 .bioavatar {
   min-height: 10em;
-  background-image: url("../images/me-current.svg");
+  background-image: url("../images/full.svg");
   background-repeat: no-repeat;
 }
 
@@ -36,9 +36,6 @@
   background-repeat: no-repeat;
 }
 
-.bioavatarbig {
-  margin: auto;
-}
 
 .aboutme-bioavatar {
   padding-top: 3em;
@@ -223,8 +220,6 @@
   .bioavatar {
     min-height: 18em;
     max-height: 50em;
-    background-image: url("../images/full.svg");
-    background-repeat: no-repeat;
   }
 
   .aboutme-bioavatar {
