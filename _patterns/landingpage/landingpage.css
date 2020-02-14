@@ -25,7 +25,7 @@
 
 .bioavatar {
   min-height: 10em;
-  background-image: url("../images/full.svg");
+  background-image: url("../images/full.png");
   background-repeat: no-repeat;
 }
 
@@ -34,18 +34,20 @@
 }
 
 .avatarimage {
-  height: 11.5em;
-  min-width: 19.5em;
-  background-image: url("../images/full.svg");
+  height: 10em;
+  min-width: 18em;
+  background-image: url("../images/full.png");
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .aboutme-avatarimage {
   height: 14em;
   min-width: 18em;
   max-width: 20em;
-  background-image: url("../images/me-current.svg");
+  background-image: url("../images/me-current.png");
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .bioavatar-2 {
@@ -213,7 +215,7 @@
   .avatarimage {
     height: 14em;
     min-width: 24em;
-    background-image: url("../images/full.svg");
+    background-image: url("../images/full.png");
     background-repeat: no-repeat;
   }
 
@@ -229,7 +231,7 @@
   .avatarimage {
     height: 16em;
     min-width: 28em;
-    background-image: url("../images/full.svg");
+    background-image: url("../images/full.png");
     background-repeat: no-repeat;
   }
 
@@ -237,7 +239,7 @@
     height: 18em;
     min-width: 24em;
     max-width: 30em;
-    background-image: url("../images/me-current.svg");
+    background-image: url("../images/me-current.png");
     background-repeat: no-repeat;
   }
 
@@ -266,7 +268,7 @@
   .aboutme-bioavatar {
     min-height: 18em;
     max-height: 50em;
-    background-image: url("../images/me-current.svg");
+    background-image: url("../images/me-current.png");
     background-repeat: no-repeat;
   }
 
@@ -314,7 +316,7 @@
   .avatarimage {
     height: 20em;
     min-width: 34em;
-    background-image: url("../images/full.svg");
+    background-image: url("../images/full.png");
     background-repeat: no-repeat;
   }
 
