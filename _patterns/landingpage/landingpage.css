@@ -8,7 +8,6 @@
 .mepage-selfintrotitle {
   color: var(--color-primary-mid-grey);
   font-weight: 300;
-  padding-top: .5em;
 }
 
 .margincenter {
@@ -30,15 +29,23 @@
   background-repeat: no-repeat;
 }
 
-.aboutme-bioavatar {
-  min-height: 10em;
-  background-image: url("../images/me-current.svg");
+.avatarcontainer {
+  height: 12em;
+}
+
+.avatarimage {
+  height: 11.5em;
+  min-width: 19.5em;
+  background-image: url("../images/full.svg");
   background-repeat: no-repeat;
 }
 
-
-.aboutme-bioavatar {
-  padding-top: 3em;
+.aboutme-avatarimage {
+  height: 14em;
+  min-width: 18em;
+  max-width: 20em;
+  background-image: url("../images/me-current.svg");
+  background-repeat: no-repeat;
 }
 
 .bioavatar-2 {
@@ -78,7 +85,6 @@
 .projectcardtextcontainer {
   position: relative;
 }
-
 
 .projectsoverviewleading {
   color: var(--color-accent-green-shadow);
@@ -141,7 +147,6 @@
   opacity: .75;
 }
 
-
 .blackhoveroverlay {
   height: 100%;
   width: 100%;
@@ -195,10 +200,46 @@
     left: 1em;
   }
 
+  .aboutme-avatarimage {
+    height: 16em;
+    min-width: 22em;
+    max-width: 30em;
+  }
+
+  .avatarcontainer {
+    height: 16em;
+  }
+
+  .avatarimage {
+    height: 14em;
+    min-width: 24em;
+    background-image: url("../images/full.svg");
+    background-repeat: no-repeat;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
+
+  .avatarcontainer {
+    min-height: 10em;
+    max-height: 25em;
+  }
+
+  .avatarimage {
+    height: 16em;
+    min-width: 28em;
+    background-image: url("../images/full.svg");
+    background-repeat: no-repeat;
+  }
+
+  .aboutme-avatarimage {
+    height: 18em;
+    min-width: 24em;
+    max-width: 30em;
+    background-image: url("../images/me-current.svg");
+    background-repeat: no-repeat;
+  }
 
   .selfintrosubtitle {
     padding-left: 3em;
@@ -233,6 +274,12 @@
 
 @media only screen and (min-width: 65em) {
 
+  .aboutme-avatarimage {
+    height: 22em;
+    min-width: 28em;
+    max-width: 30em;
+  }
+
   .selfintrotitle {
     font-size: 4.5rem;
     line-height: 5.98rem;
@@ -253,10 +300,22 @@
     padding-bottom: .8em;
   }
 
-
   .landing-mynameis {
     padding-top: .8em;
     line-height: 2rem;
+  }
+
+  .avatarcontainer {
+    height: 20em;
+    min-height: 10em;
+    max-height: 30em;
+  }
+
+  .avatarimage {
+    height: 20em;
+    min-width: 34em;
+    background-image: url("../images/full.svg");
+    background-repeat: no-repeat;
   }
 
 }
