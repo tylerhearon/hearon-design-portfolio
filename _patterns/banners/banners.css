@@ -7,7 +7,7 @@
 
 .bannerimg {
   background-image: linear-gradient(to top, #191919, var(--color-primary-black));
-  background-image: url("../images/banner.svg");
+  background-image: url("../images/banner-2.png");
   background-size: cover;
 }
 
