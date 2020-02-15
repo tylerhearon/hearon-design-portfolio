@@ -33,3 +33,10 @@ patternbot:
       The accent colours used throughout the site are a variety of earthy green tones. The greens are used to sharply contrast the gold secondary colour and allow for a second emphasis.
 
       The greens used will be used in hoverstates and various locations throughout the website as a "shadow" colour that will allow for a more dynamic colour palette without adding brand new colours.
+  collections:
+    portfoliopieces:
+      output: true
+      permalink: /portfoliopieces/:path/
+    personalpieces:
+      output: true
+      permalink: /personalpieces/:path/
