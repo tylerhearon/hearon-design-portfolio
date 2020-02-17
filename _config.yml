@@ -36,7 +36,7 @@ patternbot:
   collections:
     portfoliopieces:
       output: true
-      permalink: /portfoliopieces/:path/
+      permalink: /mainportfolio/:path/
     personalpieces:
       output: true
-      permalink: /personalpieces/:path/
+      permalink: /personalwork/:path/
