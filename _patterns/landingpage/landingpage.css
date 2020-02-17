@@ -25,7 +25,7 @@
 
 .bioavatar {
   min-height: 10em;
-  background-image: url("../images/full.png");
+  background-image: url("../images/me-full.png");
   background-repeat: no-repeat;
 }
 
@@ -33,10 +33,14 @@
   height: 12em;
 }
 
+.am-section-avatarcontainer {
+  height: 12em;
+}
+
 .avatarimage {
   height: 10em;
   min-width: 18em;
-  background-image: url("../images/full.png");
+  background-image: url("../images/me-full.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -48,6 +52,18 @@
   background-image: url("../images/me-current.png");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.am-section-avatarimage {
+  height: 14em;
+  min-width: 18em;
+  background-image: url("../images/me-youth.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.am-image2 {
+  background-image: url("../images/me-adult.png");
 }
 
 .bioavatar-2 {
@@ -173,17 +189,6 @@
   opacity: 1;
 }
 
-.landinghello {
-  font-weight: 300;
-  color: var(--color-primary-mid-grey);
-}
-
-.landingname {
-  font-weight: 300;
-  color: var(--color-primary-mid-grey);
-  line-height: 1.5rem;
-}
-
 .bkgcover {
   background-size: cover;
 }
@@ -202,21 +207,28 @@
     left: 1em;
   }
 
-  .aboutme-avatarimage {
-    height: 16em;
-    min-width: 22em;
-    max-width: 30em;
-  }
-
   .avatarcontainer {
     height: 16em;
+  }
+
+  .am-section-avatarcontainer {
+    height: 18em;
   }
 
   .avatarimage {
     height: 14em;
     min-width: 24em;
-    background-image: url("../images/full.png");
-    background-repeat: no-repeat;
+  }
+
+  .aboutme-avatarimage {
+    height: 18em;
+    min-width: 24em;
+    max-width: 30em;
+  }
+
+  .am-section-avatarimage {
+    height: 20em;
+    min-width: 26em;
   }
 
 }
@@ -228,19 +240,26 @@
     max-height: 25em;
   }
 
+  .am-section-avatarcontainer {
+    margin-top: 4em;
+    min-height: 10em;
+    max-height: 25em;
+  }
+
   .avatarimage {
     height: 16em;
     min-width: 28em;
-    background-image: url("../images/full.png");
-    background-repeat: no-repeat;
   }
 
   .aboutme-avatarimage {
     height: 18em;
     min-width: 24em;
     max-width: 30em;
-    background-image: url("../images/me-current.png");
-    background-repeat: no-repeat;
+  }
+
+  .am-section-avatarimage {
+    height: 12.5em;
+    min-width: 16em;
   }
 
   .selfintrosubtitle {
@@ -266,7 +285,7 @@
   }
 
   .aboutme-bioavatar {
-    min-height: 18em;
+    min-width: 18em;
     max-height: 50em;
     background-image: url("../images/me-current.png");
     background-repeat: no-repeat;
@@ -274,7 +293,16 @@
 
 }
 
-@media only screen and (min-width: 65em) {
+@media only screen and (min-width: 50em) {
+
+  .am-section-avatarimage {
+    height: 15.5em;
+    min-width: 19.5em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
 
   .aboutme-avatarimage {
     height: 22em;
@@ -313,11 +341,26 @@
     max-height: 30em;
   }
 
+  .am-section-avatarcontainer {
+    margin-top: 2em;
+    height: 22em;
+    min-height: 10em;
+    max-height: 30em;
+  }
+
   .avatarimage {
     height: 20em;
-    min-width: 34em;
-    background-image: url("../images/full.png");
-    background-repeat: no-repeat;
+    min-width: 20em;
+  }
+
+  .lp-avatarimage {
+    height: 20em;
+    min-width: 32em;
+  }
+
+  .am-section-avatarimage {
+    height: 18em;
+    min-width: 23em;
   }
 
 }

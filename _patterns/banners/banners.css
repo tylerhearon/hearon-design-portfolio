@@ -14,7 +14,7 @@
 @media only screen and (min-width: 25em) {
 
   .imageplaceholder {
-     height: 11em;
+     height: 10em;
   }
 
 }
@@ -22,7 +22,7 @@
 @media only screen and (min-width: 38em) {
 
   .imageplaceholder {
-     height: 14em;
+     height: 11em;
   }
 
 }
@@ -30,7 +30,7 @@
 @media only screen and (min-width: 60em) {
 
   .imageplaceholder {
-     height: 18em;
+     height: 13em;
   }
 
 }
