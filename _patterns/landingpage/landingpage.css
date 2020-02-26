@@ -108,6 +108,7 @@
 
 .hellotext:hover {
   color: var(--color-secondary-gold);
+  cursor: default;
 }
 
 .projectcardtextcontainer {
