@@ -25,12 +25,13 @@
 
 .bioavatar {
   min-height: 10em;
-  background-image: url("../images/me-full.png");
+  background-image: url("../images/me-current.png");
   background-repeat: no-repeat;
 }
 
 .avatarcontainer {
   height: 12em;
+  margin-top: 1em;
 }
 
 .am-section-avatarcontainer {
@@ -38,9 +39,9 @@
 }
 
 .avatarimage {
-  height: 10em;
+  height: 14em;
   min-width: 18em;
-  background-image: url("../images/me-full.png");
+  background-image: url("../images/me-current.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -98,6 +99,15 @@
   font-weight: 300;
   padding-left: 0;
   padding-top: .5em;
+}
+
+.hellotext {
+  color: var(--color-accent-green-shadow);
+  transition: .2s ease
+}
+
+.hellotext:hover {
+  color: var(--color-secondary-gold);
 }
 
 .projectcardtextcontainer {
@@ -208,7 +218,7 @@
   }
 
   .avatarcontainer {
-    height: 16em;
+    height: 18em;
   }
 
   .am-section-avatarcontainer {
@@ -216,7 +226,7 @@
   }
 
   .avatarimage {
-    height: 14em;
+    height: 18em;
     min-width: 24em;
   }
 
@@ -236,8 +246,8 @@
 @media only screen and (min-width: 38em) {
 
   .avatarcontainer {
-    min-height: 10em;
-    max-height: 25em;
+    height: 21em;
+    margin-top: 3em;
   }
 
   .am-section-avatarcontainer {
@@ -247,14 +257,14 @@
   }
 
   .avatarimage {
-    height: 16em;
-    min-width: 28em;
+    height: 24em;
+    min-width: 30em;
+    max-width: 40em;
   }
 
   .aboutme-avatarimage {
-    height: 18em;
-    min-width: 24em;
-    max-width: 30em;
+    height: 26em;
+    min-width: 32em;
   }
 
   .am-section-avatarimage {
@@ -305,9 +315,8 @@
 @media only screen and (min-width: 60em) {
 
   .aboutme-avatarimage {
-    height: 22em;
-    min-width: 28em;
-    max-width: 30em;
+    height: 34em;
+    min-width: 40em;
   }
 
   .selfintrotitle {
@@ -336,7 +345,7 @@
   }
 
   .avatarcontainer {
-    height: 20em;
+    height: 26em;
     min-height: 10em;
     max-height: 30em;
   }
@@ -354,8 +363,8 @@
   }
 
   .lp-avatarimage {
-    height: 20em;
-    min-width: 32em;
+    height: 30em;
+    min-width: 38em;
   }
 
   .am-section-avatarimage {
