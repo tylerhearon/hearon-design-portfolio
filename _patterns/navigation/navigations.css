@@ -6,7 +6,7 @@
 
 .navwrapper {
   background-color: var(--color-primary-black);
-  background-image: linear-gradient(to top, var(--color-primary-black), #1d1b15);
+  background-image: linear-gradient(to top, var(--color-primary-black), #1c1918);
   position: sticky;
   top: 0;
   z-index: 10;
