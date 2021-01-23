@@ -10,7 +10,7 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  border-top: 3px solid var(--color-secondary-gold);
+  border-top: 6px solid var(--color-secondary-gold);
 }
 
 .navbutton {
@@ -35,7 +35,7 @@
 
 .navbar {
   padding-top: 1.5em;
-  border-bottom: 3px solid var(--color-secondary-gold);
+  border-bottom: 4px solid var(--color-secondary-gold);
 }
 
 .copyright {
@@ -91,7 +91,7 @@
 @media only screen and (min-width: 38em) {
 
   .navbuttonheader {
-    padding: 0.2em;
+    padding: 0.4em;
   }
 
 }

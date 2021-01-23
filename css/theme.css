@@ -129,5 +129,5 @@ dl>li:before {
 }
 
 .goldborder {
-  border-bottom: 3px solid var(--color-secondary-gold);
+  border-bottom: 8px solid var(--color-secondary-gold);
 }
