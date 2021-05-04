@@ -144,7 +144,7 @@
   opacity: 0;
   top: 0;
   right: -50px;
-  transition: 0.5s;
+  transition: 0.35s;
 }
 
 .pagenext:hover span {
@@ -157,7 +157,7 @@
   opacity: 0;
   top: 0;
   left: -50px;
-  transition: 0.5s;
+  transition: 0.35s;
 }
 
 .pageprevious:hover span {
