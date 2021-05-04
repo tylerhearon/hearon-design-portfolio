@@ -1,7 +1,7 @@
 :root {
   --color-primary-black: #181717;
   --color-primary-mid-grey: #2b2a2e;
-  --color-primary-light-grey: #f3e8dd;
+  --color-primary-light-grey: #f7ece1;
 
   --color-secondary-gold: #ffb84a;
   --color-secondary-gold-shadow: #735221;
@@ -129,5 +129,5 @@ dl>li:before {
 }
 
 .goldborder {
-  border-bottom: 8px solid var(--color-secondary-gold);
+  border-bottom: 6px solid var(--color-secondary-gold);
 }
