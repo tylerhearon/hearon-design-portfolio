@@ -126,7 +126,7 @@
 }
 
 .linksquare {
-  height: 15em;
+  height: 12em;
   background-image: url("../images/tech.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -135,23 +135,23 @@
 
 
 .l1 {
-  border-bottom: 13px solid var(--color-primary-light-grey);
-  border-right: 13px solid var(--color-primary-light-grey);
+  border-bottom: 6px solid var(--color-primary-light-grey);
+  border-right: 6px solid var(--color-primary-light-grey);
 }
 
 .l2 {
-  border-bottom: 13px solid var(--color-primary-light-grey);
-  border-left: 13px solid var(--color-primary-light-grey);
+  border-bottom: 6px solid var(--color-primary-light-grey);
+  border-left: 6px solid var(--color-primary-light-grey);
 }
 
 .l3 {
-  border-top: 13px solid var(--color-primary-light-grey);
-  border-right: 13px solid var(--color-primary-light-grey);
+  border-top: 6px solid var(--color-primary-light-grey);
+  border-right: 6px solid var(--color-primary-light-grey);
 }
 
 .l4 {
-  border-top: 13px solid var(--color-primary-light-grey);
-  border-left: 13px solid var(--color-primary-light-grey);
+  border-top: 6px solid var(--color-primary-light-grey);
+  border-left: 6px solid var(--color-primary-light-grey);
 }
 
 .linksquareimage {
@@ -245,6 +245,10 @@
 }
 
 @media only screen and (min-width: 38em) {
+
+  .linksquare {
+    height: 15em;
+  }
 
   .avatarcontainer {
     height: 21em;
