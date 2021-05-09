@@ -1,8 +1,12 @@
 <div class="pagenavigations grid wrapper pad-t">
   <div class="unit xs-1-2">
-    {% pattern buttons/pagebutton-prev %}
+    <div class="previousbutton">
+      <button class="pagebtn pageprevious peta" href="{{include.prevurl}}"style="vertical-align:middle"><span>Previous</span></button>
+    </div>
   </div>
   <div class="unit xs-1-2">
-    {% pattern buttons/pagebutton-next %}
+    <div class="nextbutton">
+      <button class="pagebtn pagenext peta" href="{{include.nexturl}}"style="vertical-align:middle"><span>Next</span></button>
+    </div>
   </div>
 </div>
