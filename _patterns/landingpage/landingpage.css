@@ -5,6 +5,14 @@
   padding-top: .5em;
 }
 
+.cursor-default {
+  cursor: default;
+}
+
+.cursor-none {
+  cursor: none;
+}
+
 .mepage-selfintrotitle {
   color: var(--color-primary-mid-grey);
   font-weight: 300;
