@@ -2,11 +2,6 @@ title: "Buttons"
 description: |
   There will not be a lot of buttons used throughout the site, as many banner images will double as intrasite navigation, but the buttons that will be used will be on brand and built to be simple and effecient for those looking to navigate around the portfolio site.
 patterns:
-  button-basic:
-    title: "Basic Button"
-    description: |
-      This is a variatian of the basic rectangular button used in several instances throughout the website. In this variation, the button will be used throughout the site as the default button, made to match the overall branding and theme.
-  button-ghost:
     title: "Ghost Button"
     description: |
       This is a variatian of the basic rectangular button used in several instances throughout the website. In this variation, the button will be used over images and any location that a simple and non-obstructive version is necessary.

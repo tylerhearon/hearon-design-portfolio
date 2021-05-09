@@ -21,26 +21,6 @@
   padding-right: 1em;
 }
 
-.btn-basic {
-  background-color: transparent;
-  background-image: linear-gradient(to bottom, var(--color-primary-black), #292624);
-  border: 2px solid var(--color-primary-mid-grey);
-  transition: .1s ease;
-}
-
-.btn-basic:hover {
-  background-color: black;
-  background-image: linear-gradient(to bottom, var(--color-accent-green-shadow), #354027);
-  border: 2px solid var(--color-accent-green);
-  color: var(--color-secondary-gold-light);
-}
-
-.btn-basic:visited {
-  background-color: var(--color-primary-black);
-  border: 2px solid var(--color-accent-green-shadow);
-  color: var(--color-secondary-gold);
-}
-
 .btn-ghost {
   background-color: transparent;
   border: 2px solid transparent;
