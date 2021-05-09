@@ -1,5 +1,6 @@
 permalink: pretty
 exclude: ['README.md']
+baseurl: /hearon-design
 theme: jekyll_patternbot
 
 patternbot:
