@@ -66,13 +66,13 @@
 .am-section-avatarimage {
   height: 14em;
   min-width: 18em;
-  background-image: url("../images/me-youth.png");
+  background-image: url(ME YOUTH URL);
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 .am-image2 {
-  background-image: url("../images/me-adult.png");
+  background-image: url(ME ADULT URL);
 }
 
 .bioavatar-2 {
