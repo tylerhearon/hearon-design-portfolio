@@ -1,17 +1,17 @@
 :root {
   --color-primary-black: #181717;
   --color-primary-mid-grey: #2b2a2e;
-  --color-primary-light-grey: #faefe5;
+  --color-primary-light-grey: #fff4ec;
 
   --color-secondary-gold: #ffb84a;
-  --color-secondary-gold-shadow: #724C12;
+  --color-secondary-gold-shadow: #6b5734;
   --color-secondary-gold-light: #ffd596;
 
   --color-accent-green: #87a362;
   --color-accent-green-shadow: #324d1b;
   --color-accent-green-light: #cfd496;
 
-  --font-primary: "Fira Sans Condensed", sans-serif;
+  --font-primary: "Barlow Condensed", sans-serif;
 }
 
 html {

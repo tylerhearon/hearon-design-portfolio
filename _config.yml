@@ -4,7 +4,7 @@ theme: jekyll_patternbot
 
 patternbot:
   font_url:
-    "https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300,400,700|Neuton:300&display=swap"
+    "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700&display=swap"
   title: "Hearon Design"
   description: |
     The creation of a full personal brand, and the site developed in order to showcase the growth of my professional portfolio.
@@ -14,13 +14,9 @@ patternbot:
     patterns:
   rationales:
     typefaces.primary: |
-      Fira Sans Condensed is the primary typeface throughout the website, used as the body copy and in general, the default font setting for most instances.
+      Barlow Condensed is the primary typeface throughout the website, used as the body copy and in general, the default font setting for most instances.
 
       This font family allows for an easily read and accessed website, with clear and defined letterforms that scale appropriately.
-    typefaces.secondary: |
-      Neuton was the secondary typeface used throughout the site in places of emphasis, such as headings, subtitles and navigation.
-
-      This font family was chosen as it allows for use of dynamic emphasis when it comes to the text hierarchy of the website. Using a distinct header/titling font separates the information visually from the rest of the page.
     colors.primary: |
       The colours primarily used throughout the site are simple greyscale, allowing for an emphasis on content rather than to distract.
 

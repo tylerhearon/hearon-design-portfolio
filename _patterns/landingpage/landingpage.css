@@ -241,11 +241,11 @@
 @media only screen and (min-width: 38em) {
 
   .linksquare {
-    max-width: 49%;
+    max-width: 48%;
   }
 
   .link-left {
-    margin-right: .2em;
+    margin-right: .4em;
     margin-bottom: 0;
   }
 
@@ -319,7 +319,7 @@
   }
 
   .linksquare {
-    max-width: 49.5%;
+    max-width: 48%;
   }
 
 }

@@ -2,11 +2,6 @@
   border-radius: 1.25em;
 }
 
-.btnlanding {
-  margin-left: .5em;
-  margin-right: .5em;
-}
-
 .btn-round {
   padding: .6em .6em .3em .6em;
   border-radius: 3em;
@@ -68,6 +63,20 @@
 
 .btn-ghost-top:visited .btn-ghost:hover {
   color: white;
+}
+
+.btnlanding {
+  margin-left: .5em;
+  margin-right: .5em;
+  border: .18rem solid transparent;
+}
+
+.btnlanding:hover {
+  border: .18rem solid var(--color-secondary-gold);
+}
+
+.btnlanding:visited {
+  border: .18rem solid var(--color-secondary-gold-shadow);
 }
 
 .pagebtn {
@@ -164,6 +173,10 @@
 
   .btn {
     padding: .75em 1.5em;
+  }
+
+  .btnlanding {
+    padding: .25em 1em .35em 1em;
   }
 
 }
