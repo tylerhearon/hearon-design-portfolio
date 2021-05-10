@@ -30,11 +30,11 @@
 }
 
 .landingnavbutton {
-  padding: 1.5em;
+  padding: 2em;
 }
 
 .navbar {
-  padding-top: 1.5em;
+  padding-top: 1em;
   border-bottom: 4px solid var(--color-secondary-gold);
 }
 
