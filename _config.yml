@@ -4,7 +4,7 @@ theme: jekyll_patternbot
 
 patternbot:
   font_url:
-    "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700&display=swap"
+    "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600&display=swap"
   title: "Hearon Design"
   description: |
     The creation of a full personal brand, and the site developed in order to showcase the growth of my professional portfolio.
