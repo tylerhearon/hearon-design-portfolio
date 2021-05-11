@@ -72,7 +72,7 @@
 }
 
 .introsubtitlename {
-  padding-left: 4em;
+  padding-left: 1em;
 }
 
 .introsubtitletype {
@@ -164,10 +164,6 @@
   .paragraphgutter-2 {
     padding-left: 0;
     padding-right: 0;
-  }
-
-  .projectsoverviewintro {
-    padding-top: .45em;
   }
 
   .projectsoverviewintro-2 {
