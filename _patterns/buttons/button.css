@@ -31,7 +31,7 @@
 }
 
 .btn-ghost:visited {
-  background-color: var(--color-accent-green);
+  background-color: var(--color-secondary-gold);
   border: 2px solid var(--color-secondary-gold-shadow);
   color: var(--color-secondary-gold-shadow);
 }
@@ -56,7 +56,7 @@
 }
 
 .btn-ghost-top:visited {
-  background-color: var(--color-accent-green);
+  background-color: var(--color-secondary-gold);
   border: 2px solid var(--color-secondary-gold-shadow);
   color: var(--color-secondary-gold-shadow);
 }
