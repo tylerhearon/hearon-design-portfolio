@@ -2,14 +2,14 @@
   <div class="unit xs-1 assetcard wrapper">
     <div class="grid gutter-2">
       <div class="unit xs-1">
-        <h2 class="projectcardtitle nina push">{{ page.card1title | default:"Project Title"}}</h2>
+        <h2 class="projectcardtitle nina push">{{ include.card1title | default:"Project Title"}}</h2>
       </div>
       <a class="unit xs-1 s-2-3 island-1-2 lgreen projectcardimage push" href="/portfoliopiece-1/">
       </a>
       <div class="unit xs-1 s-1-3 projectcardtextcontainer">
         <div class="projectcardtextbox">
-          <p class="text-right text-upper projecttype push-0 mega">{{ page.card1type | default:"Project Type"}}</p>
-          <h3 class="text-right projectsubtitle-right exa push island-1-4">{{ page.card1subtitle | default:"Project Subitle"}}</h3>
+          <p class="text-right text-upper projecttype push-0 mega">{{ include.card1type | default:"Project Type"}}</p>
+          <h3 class="text-right projectsubtitle-right exa push island-1-4">{{ include.card1subtitle | default:"Project Subitle"}}</h3>
         </div>
       </div>
     </div>
@@ -17,7 +17,7 @@
       <p class="introtext push-1-2 giga">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     <div class="text-center">
-      <a class="push" href="/portfolio/{{ page.cardurl1 }}">
+      <a class="push" href="/portfolio/{{ include.card1url }}">
         <button class="btn btn-ghost giga">Read More on this Project</button>
       </a>
     </div>

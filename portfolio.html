@@ -1,28 +1,12 @@
 ---
 layout: default
-card1title: Test 1a
-card1url: portfolio-1
-card1subtitle: Subtitle Test
-card1type: Type Test
-card2title: Test 2a
-card2url: portfolio-2
-card2subtitle: Subtitle Test
-card2type: Type Test
-card3title: Test 3a
-card3url: portfolio-3
-card3subtitle: Subtitle Test
-card3type: Type Test
-card4title: Test 4a
-card4url: portfolio-4
-card4subtitle: Subtitle Test
-card4type: Type Test
 ---
 
 {% pattern portfoliopage/projectsoverview %}
-{% pattern portfoliopage/project-card %}
-{% pattern portfoliopage/project-card-2 %}
-{% pattern portfoliopage/project-card %}
-{% pattern portfoliopage/project-card-2 %}
+{% pattern portfoliopage/project-card card1title="Test 1" card1subtitle="Subtitle 1" card1type="Type 1" card1url="portfolio-1" %}
+{% pattern portfoliopage/project-card-2 card2title="Test 2" card2subtitle="Subtitle 2" card2type="Type 2" card2url="portfolio-2" %}
+{% pattern portfoliopage/project-card card1title="Test 3" card1subtitle="Subtitle 3" card1type="Type 3" card1url="portfolio-3" %}
+{% pattern portfoliopage/project-card-2 card2title="Test 4" card2subtitle="Subtitle 4" card2type="Type 4" card2url="portfolio-4" %}
 <div class="push-2">
   {% pattern decorative/bottom-blackbars %}
 </div>
