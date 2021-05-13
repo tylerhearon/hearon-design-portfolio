@@ -159,10 +159,12 @@
   padding-left: 40px;
 }
 
-@media only screen and (min-width: 25em) {
+.readmorebtn {
+  padding: .5em 1.5em;
+}
 
-
-
+.readmorebtn:hover {
+  padding: .5em 1.5em;
 }
 
 @media only screen and (min-width:38em) {
@@ -173,6 +175,10 @@
 
   .btn {
     padding: .75em 1.5em;
+  }
+
+  .readmorebtn {
+    padding: .5em 1.5em;
   }
 
   .btnlanding {
