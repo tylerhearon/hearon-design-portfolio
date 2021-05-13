@@ -8,44 +8,43 @@
       <div class="unit xs-1 s-1-2 push-2">
         <div class="grid island-1-2">
           <div class="unit xs-1-2 l-1-4 text-center island">
-            <div class="coloursquare lgreen push-2">
+            <div class="coloursquare push-2">
             </div>
             <div class="pad-t-1-2">
-              <p class="nano push-0 text-center"><strong>HexCode:</strong><br>#{{page.hexcode1}}000000</p>
-              <p class="nano push-0 text-center"><strong>Pantone:</strong><br>{{page.pantone1}}4312 X</p>
+              <p class="nano push-0 text-center"><strong>HexCode:</strong><br>#{{page.projectcolours}}</p>
+              <p class="nano push-0 text-center"><strong>Pantone:</strong><br>{{page.projectcolours-pantone}}</p>
             </div>
           </div>
           <div class="unit xs-1-2 l-1-4 text-center island">
-            <div class="coloursquare mgreen push-2">
+            <div class="coloursquare push-2">
             </div>
             <div class="pad-t-1-2">
-              <p class="nano push-0 text-center"><strong>HexCode:</strong><br>#{{page.hexcode1}}000000</p>
-              <p class="nano push-0 text-center"><strong>Pantone:</strong><br>{{page.pantone1}}4312 X</p>
+              <p class="nano push-0 text-center"><strong>HexCode:</strong><br>#{{page.projectcolours}}</p>
+              <p class="nano push-0 text-center"><strong>Pantone:</strong><br>{{page.projectcolours-pantone}}</p>
             </div>
           </div>
           <div class="unit xs-1-2 l-1-4 text-center island">
-            <div class="coloursquare dgreen push-2">
+            <div class="coloursquare push-2">
             </div>
             <div class="pad-t-1-2">
-              <p class="nano push-0 text-center"><strong>HexCode:</strong><br>#{{page.hexcode1}}000000</p>
-              <p class="nano push-0 text-center"><strong>Pantone:</strong><br>{{page.pantone1}}4312 X</p>
+              <p class="nano push-0 text-center"><strong>HexCode:</strong><br>#{{page.projectcolours}}</p>
+              <p class="nano push-0 text-center"><strong>Pantone:</strong><br>{{page.projectcolours-pantone}}</p>
             </div>
           </div>
           <div class="unit xs-1-2 l-1-4 text-center island">
-            <div class="coloursquare dgrey push-2">
+            <div class="coloursquare push-2">
             </div>
             <div class="pad-t-1-2">
-              <p class="nano push-0 text-center"><strong>HexCode:</strong><br>#{{page.hexcode1}}000000</p>
-              <p class="nano push-0 text-center"><strong>Pantone:</strong><br>{{page.pantone1}}4312 X</p>
+              <p class="nano push-0 text-center"><strong>HexCode:</strong><br>#{{page.projectcolours}}</p>
+              <p class="nano push-0 text-center"><strong>Pantone:</strong><br>{{page.projectcolours-pantone}}</p>
             </div>
           </div>
         </div>
       </div>
       <div class="unit xs-1 s-1-2 island">
-        <p class="assetleading giga push-1-2">This is an example leading sentence.</p>
+        <p class="assetleading giga push-1-2">{{ page.projecttext-colours-intro | default:"This is an example leading sentence."}}</p>
         <div class="assettextoverflow">
-          <p class="assettext mega">This is where I will explain the basic colour values and the some of the reasoning that was used in order to decide on the suggested colour palette. </p>
-          <p class="assettext mega">If I continue to explain the reasoning of a new colour selection in further detail, it will be included here. </p>
+          <p class="assettext mega">{{ page.projecttext-colours | Default:"This is where I will explain the basic colour values and the some of the reasoning that was used in order to decide on the suggested colour palette."}}</p>
         </div>
       </div>
     </div>

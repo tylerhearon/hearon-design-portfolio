@@ -1,15 +1,15 @@
 <div class="grid baseassetcardcontainer island-1-4">
   <div class="unit xs-1 assetcard wrapper">
-    <h1 class="personalprojectstitle tenamega push-2">Personal Piece Title</h1>
-    <div class="unit xs-1 max-length island push-2 lgreen personalpiece-image">
+    <h1 class="personalprojectstitle tenamega push-2">{{ page.projecttitle | default:"Project Title" }}</h1>
+    <div class="unit xs-1 max-length island push lgreen personalpiece-image">
     </div>
     <div class="max-length">
-      <h2 class="assettitle nina push-1-2">Personal Piece Subtitle</h2>
+      <h2 class="assettitle nina push-1-2">{{ page.projectsubtitle | default:"Project Subtitle" }}</h2>
       <div class="push-2">
-        <h2 class="introsubtitleinline introsubtitlename personalpiecesubinfo giga">Project Type</h2>
-        <h3 class="introsubtitleinline introsubtitletype mega">| Date / Year Completed</h3>
+        <h2 class="introsubtitleinline introsubtitlename personalpiecesubinfo giga">{{ page.projecttype | default:"Project Type" }}</h2>
+        <h3 class="introsubtitleinline introsubtitletype mega">| {{ page.projectdate | default:"Date Completed" }}</h3>
       </div>
-      <p class="projectsoverviewtext wrapper push giga">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in facilisis massa. Aenean et augue purus. Proin eget elementum leo. Nunc sit amet viverra urna. Suspendisse potenti. Aenean in massa enim. Vestibulum accumsan eros nec imperdiet tempus. Pellentesque egestas nec eros eu mollis. Etiam blandit in odio ut consequat. Sed mollis efficitur lacus vitae suscipit. Aliquam iaculis imperdiet ex sed pellentesque. Morbi ultricies, mauris vel pellentesque pharetra, lacus nisi vulputate leo, nec accumsan diam tellus tincidunt magna. Pellentesque consectetur lectus et odio lacinia, at congue sapien ultrices. <br><br> Aliquam eget ante at eros tincidunt bibendum. Maecenas nec erat tortor. Maecenas vestibulum ex vel est dignissim hendrerit. Pellentesque suscipit condimentum metus, vitae interdum tellus ornare eu. Ut ex leo, rutrum id sagittis et, lobortis id metus. Maecenas ut orci eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus felis ut arcu ornare, nec sollicitudin odio molestie. Quisque vel magna feugiat, ullamcorper dui in, lacinia purus. </p>
+      <p class="projectsoverviewtext wrapper push giga">{{ page.projecttext | default:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}}</p>
     </div>
   </div>
 </div>
