@@ -33,12 +33,13 @@
 
 .bioavatar {
   min-height: 10em;
-  background-image: url(ME CURRENT URL);
+  background-color: var(--color-secondary-gold);
   background-repeat: no-repeat;
 }
 
 .avatarcontainer {
-  height: 12em;
+  height: 22em;
+  width: 99%;
   margin-top: 1em;
 }
 
@@ -47,9 +48,10 @@
 }
 
 .avatarimage {
-  height: 14em;
+  height: 22em;
   min-width: 18em;
-  background-image: url(ME CURRENT URL);
+  width: 100%;
+  background-color: var(--color-secondary-gold);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -58,7 +60,7 @@
   height: 14em;
   min-width: 18em;
   max-width: 20em;
-  background-image: url(ME CURRENT URL);
+  background-color: var(--color-secondary-gold);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -111,7 +113,9 @@
 
 .hellotext {
   color: var(--color-accent-green-shadow);
-  transition: .2s ease
+  transition: .2s ease;
+  font-size: 3rem;
+  line-height: 4rem;
 }
 
 .hellotext:hover {
@@ -212,17 +216,13 @@
     left: 1em;
   }
 
-  .avatarcontainer {
-    height: 18em;
-  }
-
   .am-section-avatarcontainer {
     height: 18em;
   }
 
   .avatarimage {
-    height: 18em;
-    min-width: 24em;
+    height: 24em;
+    min-width: 20em;
   }
 
   .aboutme-avatarimage {
@@ -254,8 +254,7 @@
   }
 
   .avatarcontainer {
-    height: 21em;
-    margin-top: 3em;
+    margin-top: 1em;
   }
 
   .am-section-avatarcontainer {
@@ -265,14 +264,14 @@
   }
 
   .avatarimage {
-    height: 24em;
-    min-width: 30em;
+    height: 26em;
+    min-width: 32em;
     max-width: 40em;
   }
 
   .aboutme-avatarimage {
-    height: 26em;
-    min-width: 32em;
+    height: 28em;
+    min-width: 34em;
   }
 
   .am-section-avatarimage {
@@ -305,7 +304,7 @@
   .aboutme-bioavatar {
     min-width: 18em;
     max-height: 50em;
-    background-image: url(ME CURRENT URL);
+    background-image: url(/images/me-current.png);
     background-repeat: no-repeat;
   }
 
@@ -325,6 +324,11 @@
 }
 
 @media only screen and (min-width: 60em) {
+
+  .hellotext {
+    font-size: 4.45rem;
+    line-height: 5.5rem;
+  }
 
   .aboutme-avatarimage {
     height: 34em;
@@ -357,8 +361,7 @@
   }
 
   .avatarcontainer {
-    height: 26em;
-    min-height: 10em;
+    min-height: 16em;
     max-height: 30em;
   }
 
@@ -370,13 +373,14 @@
   }
 
   .avatarimage {
-    height: 20em;
-    min-width: 20em;
+    height: 28em;
+    min-width: 34em;
   }
 
   .lp-avatarimage {
-    height: 32em;
-    min-width: 36em;
+    height: 24.6em;
+    min-width: 40em;
+    max-width: 66em;
   }
 
   .am-section-avatarimage {
@@ -386,12 +390,10 @@
 
 }
 
-
 @media only screen and (min-width: 68em) {
 
   .hellotext:hover {
-    font-size: 4rem;
-    line-height: 5rem;
+    font-size: 4.8rem;
   }
 
 }
