@@ -82,6 +82,12 @@
   padding-left: .2em;
 }
 
+.projectmainimage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .introleading {
   color: var(--color-accent-green-shadow);
   font-weight: bold;
