@@ -4,7 +4,8 @@
       <div class="unit xs-1">
         <h2 class="projectcardtitle nina push">{{ include.card2title | default:"Project Title"}}</h2>
       </div>
-      <a class="unit xs-1 s-0 island-1-2 mgreen projectcardimage push" href="/portfoliopiece-1/">
+      <a class="unit xs-1 s-0 projectcardimage push" href="/portfolio/{{ include.card2url }}">
+        <img src="{{include.projectcardimage}}" class="stageimage-fullsize" alt="">
       </a>
       <div class="unit xs-1 s-1-3 projectcardtextcontainer">
         <div class="projectcardtextbox-left">
@@ -12,7 +13,8 @@
           <h3 class="projectsubtitle-left exa push island-1-4">{{ include.card2subtitle | default:"Project Subitle"}}</h3>
         </div>
       </div>
-      <a class="unit xs-0 s-2-3 island-1-2 mgreen projectcardimage push" href="/portfoliopiece-1/">
+      <a class="unit xs-0 s-2-3 projectcardimage push" href="/portfolio/{{ include.card2url }}">
+        <img src="{{include.projectcardimage}}" class="stageimage-fullsize" alt="">
       </a>
     </div>
     <div class="gutter-2 wrapper island-1-4">
