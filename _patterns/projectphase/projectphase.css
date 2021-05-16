@@ -135,20 +135,22 @@
   margin: auto;
 }
 
+.stageimage-fullsize {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .stagesimage-split-1 {
   background-color: var(--color-secondary-gold-light);
   height: 12em;
   margin-bottom: .2rem;
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
 }
 
 .stagesimage-split-2 {
   background-color: var(--color-secondary-gold);
   height: 12em;
   margin-top: .2rem;
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
 }
 
 @media only screen and (min-width: 25em) {
