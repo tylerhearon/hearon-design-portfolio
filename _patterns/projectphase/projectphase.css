@@ -124,7 +124,7 @@
 }
 
 .imagecontainer {
-  background-color: var(--color-accent-secondary-gold);
+  background-color: var(--color-secondary-gold);
   min-height: 20em;
   margin-bottom: 2em;
 }

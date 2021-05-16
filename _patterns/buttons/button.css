@@ -16,16 +16,20 @@
   padding-right: 1em;
 }
 
+.contactsendbtn {
+  border-radius: 3em;
+}
+
 .btn-ghost {
   background-color: transparent;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
   color: var(--color-accent-green-shadow);
   transition: .2s ease;
 }
 
 .btn-ghost:hover {
   background-color: transparent;
-  border: 2px solid var(--color-secondary-gold);
+  border: 3px solid var(--color-secondary-gold);
   color: var(--color-secondary-gold);
   text-decoration: none;
 }
@@ -69,6 +73,7 @@
   margin-left: .5em;
   margin-right: .5em;
   border: .18rem solid transparent;
+  transition: 0.2s;
 }
 
 .btnlanding:hover {
@@ -161,6 +166,7 @@
 
 .readmorebtn {
   padding: .5em 1.5em;
+  transition: 0.2s;
 }
 
 .readmorebtn:hover {
@@ -197,5 +203,12 @@
     margin-left: 2em;
     margin-right: 2em;
   }
+
+  .btnlanding:hover {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+
+
 
 }
