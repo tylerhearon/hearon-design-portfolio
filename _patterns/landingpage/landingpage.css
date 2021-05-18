@@ -167,31 +167,31 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .6s ease;
+  transition: .62s ease;
   background-color: var(--color-secondary-gold);
 }
 
 .linksquare:hover .goldhoveroverlay {
-  opacity: .75;
+  opacity: .78;
 }
 
 .blackhoveroverlay {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .6s ease;
+  transition: .62s ease;
   background-color: black;
 }
 
 .linksquare:hover .blackhoveroverlay {
-  opacity: .5;
+  opacity: .2;
 }
 
 .linksquare-hovertext {
   color: white;
   font-size: 1.5rem;
   opacity: 0;
-  transition: .6s ease;
+  transition: .62s ease;
 }
 
 .linksquare:hover .linksquare-hovertext {
